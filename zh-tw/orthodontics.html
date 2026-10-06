@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>치아교정 | 스마일뷰치과의원</title>
+    <title>韓國牙齒矯正・手術優先正顎｜戽斗・暴牙｜SMILEVIEW</title>
+    <!-- SEO:START -->
+    <meta name="description" content="戽斗、暴牙、顏面不對稱矯正。結合雙顎手術的手術優先（Surgery First）矯正，快速改善外觀並恢復咬合功能，也提供舌側矯正與局部矯正。">
+    <link rel="canonical" href="https://www.smileview-dental.com/zh-tw/orthodontics">
+    <link rel="alternate" hreflang="ko" href="https://www.smileview-dental.com/orthodontics">
+    <link rel="alternate" hreflang="ja" href="https://www.smileview-dental.com/ja/orthodontics">
+    <link rel="alternate" hreflang="zh-TW" href="https://www.smileview-dental.com/zh-tw/orthodontics">
+    <link rel="alternate" hreflang="x-default" href="https://www.smileview-dental.com/orthodontics">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SMILEVIEW牙醫診所">
+    <meta property="og:title" content="韓國牙齒矯正・手術優先正顎｜戽斗・暴牙｜SMILEVIEW">
+    <meta property="og:description" content="戽斗、暴牙、顏面不對稱矯正。結合雙顎手術的手術優先（Surgery First）矯正，快速改善外觀並恢復咬合功能，也提供舌側矯正與局部矯正。">
+    <meta property="og:url" content="https://www.smileview-dental.com/zh-tw/orthodontics">
+    <meta property="og:image" content="https://www.smileview-dental.com/images/og/clinic.jpg">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- SEO:END -->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animations.css">
     <style>
     /* ===== LAMINATE PREMIUM DESIGN SYSTEM ===== */
     :root {
@@ -131,7 +149,7 @@
     }
     .lm-title-band-overlay {
         position: absolute; inset: 0; z-index: 0;
-        background: url('images/ortho/hero_bg.jpg') center/cover no-repeat;
+        background: url('/images/ortho/hero_bg.jpg') center/cover no-repeat;
         opacity: 0.25;
     }
     .lm-title-band-content {
@@ -833,7 +851,7 @@
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 1024px) {
-        .lm-horizontal { margin-top: 70px; }
+        .lm-horizontal { margin-top: 0; }
         .lm-h-wrap { display: block; }
         .lm-h-panel { width: 100%; height: auto; min-height: 100vh; }
         .lm-h-panel--title { width: 100%; }
@@ -951,34 +969,42 @@
         .lm-faq-a { font-size: 14px; padding: 0 0 20px 40px; }
         .lm-scroll-top { right: 16px; bottom: 24px; width: 40px; height: 40px; }
     }
+    
+    @media (max-width: 1024px) { .lm-hero { min-height: 100svh; } }
+    
+    @media (max-width: 1024px) {
+        .lm-h-panel--title { display: flex; flex-direction: column; min-height: 60vh; }
+        .lm-title-band { flex: 1; min-height: 60vh; }
+    }
     </style>
 </head>
 <body>
     <header id="main-header">
         <div class="header-container">
-            <div class="logo"><a href="index.html">SMILEVIEW</a></div>
+            <div class="logo"><a href="/zh-tw">SMILEVIEW</a></div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="introduction.html">스마일뷰치과</a></li>
-                    <li><a href="invisalign.html">인비절라인</a></li>
-                    <li><a href="ortho.html" class="active">치아교정</a></li>
-                    <li><a href="whitening.html">치아미백</a></li>
-                    <li><a href="laminate.html">원데이 라미네이트</a></li>
-                    <li><a href="implant.html">수면 임플란트</a></li>
-                    <li><a href="prosthetics.html">보철치료</a></li>
+                    <li><a href="/zh-tw/about">診所介紹</a></li>
+                    <li><a href="/zh-tw/invisalign">隱適美</a></li>
+                    <li><a href="/zh-tw/orthodontics" class="active">牙齒矯正</a></li>
+                    <li><a href="/zh-tw/teeth-whitening">牙齒美白</a></li>
+                    <li><a href="/zh-tw/laminate-veneers">單日陶瓷貼片</a></li>
+                    <li><a href="/zh-tw/sleep-implant">舒眠植牙</a></li>
+                    <li><a href="/zh-tw/prosthetics">全瓷冠・假牙</a></li>
                 </ul>
             </nav>
             <div class="header-right">
                 <div class="lang-selector" id="langSelector">
                     <span class="lang-icon"><i class="ph ph-globe"></i></span>
-                    <button class="lang-current" onclick="document.getElementById('langSelector').classList.toggle('open')">KO</button>
+                    <button type="button" class="lang-current" onclick="this.closest('.lang-selector').classList.toggle('open')">TW</button>
                     <div class="lang-dropdown">
-                        <a href="#" class="active">한국어 (KO)</a>
-                        <a href="ortho_tw.html">繁體中文 (TW)</a>
-                        <a href="ortho_jp.html">日本語 (JP)</a>
+                        <a href="/orthodontics">한국어 (KO)</a>
+                        <a href="https://www.smileviewdental.clinic/" target="_blank">English (US)</a>
+                        <a href="#" class="active">繁體中文 (TW)</a>
+                        <a href="/ja/orthodontics">日本語 (JP)</a>
                     </div>
                 </div>
-                <a href="#" class="btn-reserve">예약하기</a>
+                <a href="https://lin.ee/lHEp9er" class="btn-reserve">立即預約</a>
                 <div class="mobile-menu-btn"><i class="ph ph-list"></i></div>
             </div>
         </div>
@@ -989,16 +1015,16 @@
         <div class="mobile-menu-inner">
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="introduction.html">병원소개</a></li>
-                    <li><a href="invisalign.html">인비절라인</a></li>
-                    <li><a href="ortho.html">치아교정</a></li>
-                    <li><a href="whitening.html">치아미백</a></li>
-                    <li><a href="laminate.html">원데이 라미네이트</a></li>
-                    <li><a href="implant.html">수면 임플란트</a></li>
-                    <li><a href="prosthetics.html">보철치료</a></li>
+                    <li><a href="/zh-tw/about">診所介紹</a></li>
+                    <li><a href="/zh-tw/invisalign">隱適美</a></li>
+                    <li><a href="/zh-tw/orthodontics">牙齒矯正</a></li>
+                    <li><a href="/zh-tw/teeth-whitening">牙齒美白</a></li>
+                    <li><a href="/zh-tw/laminate-veneers">單日陶瓷貼片</a></li>
+                    <li><a href="/zh-tw/sleep-implant">舒眠植牙</a></li>
+                    <li><a href="/zh-tw/prosthetics">全瓷冠・假牙</a></li>
                 </ul>
             </nav>
-            <a href="https://naver.me/xoBKVJA6" class="mobile-reserve-btn" target="_blank">온라인 예약</a>
+            <a href="https://naver.me/xoBKVJA6" class="mobile-reserve-btn" target="_blank">線上預約</a>
         </div>
     </div>
 
@@ -1016,12 +1042,12 @@
             <div class="lm-hero-content">
                 <div class="lm-hero-lbx"><span>ORTHODONTICS</span></div>
                 <p class="lm-hero-desc">
-                    치아와 턱의 비정상적인 위치를 교정하여<br>
-                    미소와 턱의 기능을 향상시키는 치료과정입니다.
+                    矯正牙齒與下顎的異常位置，<br>
+                    是改善笑容與下顎功能的治療過程。
                 </p>
                 <p class="lm-hero-desc2">
-                    치아의 이상적인 위치와 상태를 재조정하여<br>
-                    아름다운 스마일 라인과 건강한 구강을 선사합니다.
+                    重新調整牙齒至理想位置與狀態，<br>
+                    為您帶來美麗的笑容線條與健康的口腔。
                 </p>
             </div>
             <!-- Scroll Down -->
@@ -1045,7 +1071,7 @@
             <div class="lm-title-band-overlay"></div>
             <div class="lm-title-band-content">
                 <h2>Orthodontics</h2>
-                <p class="lm-kr-sub">치아교정 솔루션</p>
+                <h1 class="lm-kr-sub">牙齒矯正方案</h1>
                 <div class="lm-badge">
                     <span>SMILEVIEW ORTHODONTICS</span>
                 </div>
@@ -1079,16 +1105,16 @@
             <div class="lm-def-con">
                 <div class="lm-def-tit">
                     <span class="lm-def-num">01</span>
-                    <h2 class="lm-def-title">치아교정이란?</h2>
+                    <h2 class="lm-def-title">什麼是牙齒矯正？</h2>
                     <p class="lm-def-body">
-                        치아교정은 치아와 턱의 비정상적인 위치나 교합 문제를 전문 교정 장치를 이용하여 바르게 교정하는 치료과정입니다. 턱과 치아의 위치를 조정하여 교합과 치아의 기능을 안정시키고, 변화된 턱의 길이와 위치를 조절하여 턱과 안면 근육의 균형을 맞출 수 있습니다. 아름다운 스마일 라인과 함께 건강한 구강 기능을 되찾을 수 있습니다.
+                        牙齒矯正是利用專業矯正裝置，將牙齒與下顎的異常位置或咬合問題予以正確矯正的治療過程。透過調整下顎與牙齒位置，穩定咬合與牙齒功能，並調節改變後的下顎長度與位置，以達到下顎與顏面肌肉的平衡。同時恢復美麗的笑容線條與健康的口腔功能。
                     </p>
                 </div>
                 <div class="lm-def-divider"></div>
                 <div class="lm-def-sub">
                     <p>
-                        <b>교정유형</b>
-                        <span>선수술 교정, 주걱턱 교정, 안면비대칭 교정, 돌출입 교정, 부분교정, 설측교정 등</span>
+                        <b>矯正類型</b>
+                        <span>手術優先矯正、戽斗矯正、顏面不對稱矯正、暴牙矯正、局部矯正、舌側矯正等</span>
                     </p>
                 </div>
             </div>
@@ -1102,53 +1128,53 @@
         <section class="lm-info-section">
             <div class="lm-inner" style="text-align:center;">
                 <span class="lm-section-label lm-fade">PROCEDURE INFO</span>
-                <h2 class="lm-section-h2 lm-fade">시술 정보</h2>
+                <h2 class="lm-section-h2 lm-fade">療程資訊</h2>
                 <div class="lm-info-grid">
                     <div class="lm-info-card lm-fade">
                         <div class="lm-info-icon"><i class="ph ph-clock"></i></div>
-                        <div class="lm-info-label">시술시간</div>
-                        <div class="lm-info-val">약 1~2시간(첫 방문)</div>
+                        <div class="lm-info-label">療程時間</div>
+                        <div class="lm-info-val">約1~2小時（初診）</div>
                     </div>
                     <div class="lm-info-card lm-fade lm-fade-delay-1">
                         <div class="lm-info-icon"><i class="ph ph-syringe"></i></div>
-                        <div class="lm-info-label">마취방법</div>
-                        <div class="lm-info-val">불필요</div>
+                        <div class="lm-info-label">麻醉方式</div>
+                        <div class="lm-info-val">不需要</div>
                     </div>
                     <div class="lm-info-card lm-fade lm-fade-delay-2">
                         <div class="lm-info-icon"><i class="ph ph-calendar-dots"></i></div>
-                        <div class="lm-info-label">교정기간</div>
-                        <div class="lm-info-val">12~24개월</div>
+                        <div class="lm-info-label">矯正期間</div>
+                        <div class="lm-info-val">12~24個月</div>
                     </div>
                     <div class="lm-info-card lm-fade lm-fade-delay-3">
                         <div class="lm-info-icon"><i class="ph ph-arrows-clockwise"></i></div>
-                        <div class="lm-info-label">내원주기</div>
-                        <div class="lm-info-val">3~4주</div>
+                        <div class="lm-info-label">回診週期</div>
+                        <div class="lm-info-val">3~4週</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== SECTION 1: 선수술 교정이란? ===== -->
+        <!-- ===== SECTION 1: 什麼是手術優先矯正？ ===== -->
         <section class="lm-presurg">
             <div class="lm-presurg-grid-bg"></div>
             <div class="lm-inner">
-                <span class="lm-section-label lm-fade">PRE-SURGICAL</span>
-                <h2 class="lm-section-h2 lm-fade">선수술 교정이란?</h2>
+                <span class="lm-section-label lm-fade">SURGERY FIRST</span>
+                <h2 class="lm-section-h2 lm-fade">什麼是手術優先矯正？</h2>
                 <div class="lm-presurg-grid">
                     <div class="lm-presurg-content lm-fade">
-                        <h3>수술 먼저, <em>교정은 나중에</em></h3>
+                        <h3>先手術，<em>後矯正</em></h3>
                         <div class="lm-presurg-divider"></div>
                         <p>
-                            선수술 교정은 기존의 '교정 → 수술' 순서를 역전시켜, 턱수술을 먼저 시행한 뒤 교정 치료를 진행하는 방법입니다. 수술을 통해 골격적 부조화를 먼저 해결하므로 외모 개선이 빠르게 이루어지며, 비정상적인 골격이 정상 골격으로 바뀌면서 심미적 만족감을 조기에 얻을 수 있습니다.
+                            手術優先矯正是將傳統「矯正→手術」的順序顛倒，先進行顎骨手術後再進行矯正治療的方式。由於先透過手術解決骨骼不協調問題，外觀改善能迅速顯現，異常骨骼恢復正常後，可提早獲得審美上的滿足感。
                         </p>
                         <p style="margin-top:16px;">
-                            수술 후 변화된 턱과 치아의 위치를 정밀하게 재조정하여 교합과 치아의 기능을 안정시키고 회복시키는 것이 핵심 목적이며, 전통적인 교정-수술 방식 대비 전체 치료 기간을 단축할 수 있는 장점이 있습니다.
+                            核心目的是精密重新調整術後改變的顎部與牙齒位置，以穩定並恢復咬合與牙齒功能。與傳統矯正-手術方式相比，具有可縮短整體治療期間的優點。
                         </p>
                     </div>
                     <div class="lm-presurg-img-wrap lm-fade lm-fade-delay-1">
-                        <span class="lm-presurg-badge">Surgery First<small>선수술 우선</small></span>
+                        <span class="lm-presurg-badge">Surgery First<small>術前優先</small></span>
                         <div class="lm-presurg-img">
-                            <img src="images/ortho/unnamed.jpg" alt="선수술 교정">
+                            <img src="/images/ortho/unnamed.jpg" alt="手術優先矯正">
                         </div>
                     </div>
                 </div>
@@ -1156,48 +1182,48 @@
                     <div class="lm-presurg-tl-item lm-fade">
                         <div class="lm-presurg-tl-card">
                             <div class="lm-presurg-tl-card-img">
-                                <img src="images/ortho/%EC%88%98%EC%88%A0%EC%A0%84.jpg" alt="수술 전 정밀 분석">
+                                <img src="/images/ortho/수술전.jpg" alt="術前精密分析">
                             </div>
                             <div class="lm-presurg-tl-card-body">
                                 <span class="lm-presurg-tl-num">01</span>
-                                <h4>수술 전 정밀 분석</h4>
-                                <p>3D CT와 구강 스캔을 통해 골격 및 치아 상태를 정밀하게 분석하고, 환자의 얼굴 형태와 교합 상태를 종합적으로 평가하여 최적의 수술 계획을 수립합니다.</p>
+                                <h4>術前精密分析</h4>
+                                <p>透過3D CT與口腔掃描精密分析骨骼及牙齒狀態，綜合評估患者的臉型與咬合狀態，制訂最佳手術計畫。</p>
                             </div>
                         </div>
                     </div>
                     <div class="lm-presurg-tl-item lm-fade lm-fade-delay-1">
                         <div class="lm-presurg-tl-card">
                             <div class="lm-presurg-tl-card-img">
-                                <img src="images/ortho/%EC%88%98%EC%88%A0%20%EC%A7%81%ED%9B%84.jpg" alt="수술 직후">
+                                <img src="/images/ortho/수술 직후.jpg" alt="術後即時">
                             </div>
                             <div class="lm-presurg-tl-card-body">
                                 <span class="lm-presurg-tl-num">02</span>
-                                <h4>수술 직후</h4>
-                                <p>골격적 부조화를 해결하고 심미적 개선의 기반을 마련하는 단계입니다. 수술을 통해 비정상적인 골격이 정상 위치로 이동하여 외모 개선이 빠르게 나타납니다.</p>
+                                <h4>術後即時</h4>
+                                <p>此階段旨在解決骨骼不協調問題，為審美改善奠定基礎。手術後異常骨骼移至正常位置，外觀改善迅速顯現。</p>
                             </div>
                         </div>
                     </div>
                     <div class="lm-presurg-tl-item lm-fade lm-fade-delay-2">
                         <div class="lm-presurg-tl-card">
                             <div class="lm-presurg-tl-card-img">
-                                <img src="images/ortho/%EC%88%98%EC%88%A0%20%ED%9B%84%20%EA%B5%90%EC%A0%95%20%EC%A4%91.jpg" alt="수술 후 교정 중">
+                                <img src="/images/ortho/수술 후 교정 중.jpg" alt="術後矯正中">
                             </div>
                             <div class="lm-presurg-tl-card-body">
                                 <span class="lm-presurg-tl-num">03</span>
-                                <h4>수술 후 교정 중</h4>
-                                <p>변화된 턱 위치에 맞춰 치아 교합을 정밀하게 조정하는 과정입니다. 교정 장치를 통해 치아를 이상적인 위치로 이동시켜 안정적인 교합을 달성합니다.</p>
+                                <h4>術後矯正中</h4>
+                                <p>此過程是根據改變後的顎部位置，精密調整牙齒咬合。透過矯正裝置將牙齒移至理想位置，達到穩定的咬合。</p>
                             </div>
                         </div>
                     </div>
                     <div class="lm-presurg-tl-item lm-fade lm-fade-delay-3">
                         <div class="lm-presurg-tl-card">
                             <div class="lm-presurg-tl-card-img">
-                                <img src="images/ortho/%EC%88%98%EC%88%A0%20%ED%9B%84%20%EA%B5%90%EC%A0%95%20%EC%99%84%EB%A3%8C.jpg" alt="수술 후 교정 완료">
+                                <img src="/images/ortho/수술 후 교정 완료.jpg" alt="術後矯正完成">
                             </div>
                             <div class="lm-presurg-tl-card-body">
                                 <span class="lm-presurg-tl-num">04</span>
-                                <h4>수술 후 교정 완료</h4>
-                                <p>안정된 교합과 아름다운 스마일 라인을 완성하는 최종 단계입니다. 유지장치를 통해 교정 결과가 오랫동안 유지될 수 있도록 관리합니다.</p>
+                                <h4>術後矯正完成</h4>
+                                <p>這是完成穩定咬合與美麗笑容線條的最終階段。透過保持器管理，確保矯正結果長期維持。</p>
                             </div>
                         </div>
                     </div>
@@ -1209,33 +1235,33 @@
         <section class="lm-advantage">
             <div class="lm-inner" style="text-align:center;">
                 <span class="lm-section-label lm-fade">ADVANTAGE</span>
-                <h2 class="lm-section-h2 lm-fade">스마일뷰 교정의 장점</h2>
+                <h2 class="lm-section-h2 lm-fade">SMILEVIEW矯正的優點</h2>
             </div>
             <div class="lm-inner">
                 <div class="lm-adv-grid">
                     <div class="lm-adv-card lm-fade">
                         <div class="lm-adv-icon"><i class="ph ph-star-four"></i></div>
                         <div class="lm-adv-badge">benefit 01</div>
-                        <h3>빠른 심미적 개선</h3>
-                        <p>수술을 먼저 시행하여 외모 개선이 빠르게 이루어지며, 정상 골격으로의 변화를 통해 조기에 심미적 만족감을 경험할 수 있습니다.</p>
+                        <h3>快速改善外觀</h3>
+                        <p>先進行手術使外觀迅速改善，透過骨骼恢復正常，提早體驗審美上的滿足感。</p>
                     </div>
                     <div class="lm-adv-card lm-fade lm-fade-delay-1">
                         <div class="lm-adv-icon"><i class="ph ph-tooth"></i></div>
                         <div class="lm-adv-badge">benefit 02</div>
-                        <h3>기능적 교합 회복</h3>
-                        <p>올바른 저작 기능과 턱 관절의 균형을 되찾아 전반적인 구강 건강을 향상시키고 안정적인 교합을 달성합니다.</p>
+                        <h3>恢復咬合功能</h3>
+                        <p>恢復正確的咀嚼功能與顎關節平衡，提升整體口腔健康，達到穩定的咬合。</p>
                     </div>
                     <div class="lm-adv-card lm-fade lm-fade-delay-2">
                         <div class="lm-adv-icon"><i class="ph ph-users-three"></i></div>
                         <div class="lm-adv-badge">benefit 03</div>
-                        <h3>교정과 전문의 협진</h3>
-                        <p>수술 계획부터 세심한 분석이 필요하기에, 교정과 의료진과의 긴밀한 협진을 통해 최적의 치료 결과를 도출합니다.</p>
+                        <h3>矯正科專科醫師協作</h3>
+                        <p>由於從手術計畫起就需要細緻的分析，透過與矯正科醫療團隊的緊密協作，導出最佳治療結果。</p>
                     </div>
                     <div class="lm-adv-card lm-fade lm-fade-delay-3">
                         <div class="lm-adv-icon"><i class="ph ph-shield-check"></i></div>
                         <div class="lm-adv-badge">benefit 04</div>
-                        <h3>체계적 사후관리</h3>
-                        <p>유지장치 관리와 정기 검진을 통해 교정 결과가 오랫동안 안정적으로 유지될 수 있도록 체계적인 사후관리를 제공합니다.</p>
+                        <h3>系統性術後管理</h3>
+                        <p>透過保持器管理與定期複診，提供系統性的術後管理，確保矯正結果長期穩定維持。</p>
                     </div>
                 </div>
             </div>
@@ -1245,14 +1271,14 @@
         <section class="lm-types-overview">
             <div class="lm-inner">
                 <span class="lm-section-label lm-fade">BIMAXILLARY</span>
-                <h2 class="lm-section-h2 lm-fade">양악수술과 함께하는 교정 치료</h2>
+                <h2 class="lm-section-h2 lm-fade">結合雙顎手術的矯正治療</h2>
                 <div class="lm-types-desc lm-fade">
-                    <p>양악수술은 위턱과 아래턱의 골격 및 치아의 부정교합을 치료하고, 심미적인 얼굴 골격과 정상적인 교합을 얻고자 하는 수술입니다. 각 교정 유형을 클릭하여 자세한 정보를 확인하세요.</p>
+                    <p>雙顎手術是治療上下顎骨骼及牙齒咬合不正，以獲得美觀臉型骨骼與正常咬合的手術。請點擊各矯正類型以確認詳細資訊。</p>
                 </div>
                 <div class="lm-types-tabs lm-fade">
-                    <button class="lm-types-tab active" data-panel="jaw" onclick="switchTypeTab(this)">주걱턱 교정</button>
-                    <button class="lm-types-tab" data-panel="asym" onclick="switchTypeTab(this)">안면비대칭 교정</button>
-                    <button class="lm-types-tab" data-panel="prot" onclick="switchTypeTab(this)">돌출입 교정</button>
+                    <button class="lm-types-tab active" data-panel="jaw" onclick="switchTypeTab(this)">戽斗矯正</button>
+                    <button class="lm-types-tab" data-panel="asym" onclick="switchTypeTab(this)">顏面不對稱矯正</button>
+                    <button class="lm-types-tab" data-panel="prot" onclick="switchTypeTab(this)">暴牙矯正</button>
                 </div>
                 <div class="lm-types-content lm-fade">
                     <!-- Panel: 주걱턱 -->
@@ -1260,8 +1286,8 @@
                         <div class="lm-types-panel-grid">
                             <div class="lm-types-panel-images" style="grid-template-columns:1fr;">
                                 <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3;">
-                                    <div class="lm-ba-slider-before"><img src="images/ortho/1.jpg" alt="Before"></div>
-                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/2.jpg" alt="After"></div>
+                                    <div class="lm-ba-slider-before"><img src="/images/ortho/1.jpg" alt="Before"></div>
+                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/2.jpg" alt="After"></div>
                                     <div class="lm-ba-slider-divider"></div>
                                     <div class="lm-ba-slider-handle">
                                         <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1274,9 +1300,9 @@
                             </div>
                             <div class="lm-types-panel-text">
                                 <span class="lm-types-panel-badge">Type 01</span>
-                                <h3>아래턱 돌출로 인한<br><em>주걱턱 교정</em></h3>
-                                <p>아래턱 성장이 과도하거나 위턱 성장이 부족해 아래턱이 돌출된 경우 진행하는 교정입니다. 골격적 부조화를 해결하여 얼굴 균형과 정상적인 교합을 회복시킵니다.</p>
-                                <a href="#sec-jaw" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-jaw').scrollIntoView({behavior:'smooth',block:'start'})">자세히 보기 <i class="ph ph-arrow-right"></i></a>
+                                <h3>因下顎突出導致的<br><em>戽斗矯正</em></h3>
+                                <p>適用於下顎過度生長或上顎生長不足導致下顎突出的情況。透過解決骨骼不協調，恢復臉部平衡與正常咬合。</p>
+                                <a href="#sec-jaw" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-jaw').scrollIntoView({behavior:'smooth',block:'start'})">了解更多 <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1285,8 +1311,8 @@
                         <div class="lm-types-panel-grid">
                             <div class="lm-types-panel-images" style="grid-template-columns:1fr;">
                                 <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3;">
-                                    <div class="lm-ba-slider-before"><img src="images/ortho/%EC%95%88%EB%A9%B4%EB%B9%84%EB%8C%80%EC%B9%AD%20%EC%A0%84.jpg" alt="Before"></div>
-                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/%EC%95%88%EB%A9%B4%EB%B9%84%EB%8C%80%EC%B9%AD%20%ED%9B%84.jpg" alt="After"></div>
+                                    <div class="lm-ba-slider-before"><img src="/images/ortho/안면비대칭 전.jpg" alt="Before"></div>
+                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/안면비대칭 후.jpg" alt="After"></div>
                                     <div class="lm-ba-slider-divider"></div>
                                     <div class="lm-ba-slider-handle">
                                         <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1299,9 +1325,9 @@
                             </div>
                             <div class="lm-types-panel-text">
                                 <span class="lm-types-panel-badge">Type 02</span>
-                                <h3>좌우 균형을 되찾는<br><em>안면비대칭 교정</em></h3>
-                                <p>얼굴의 상하 길이 혹은 좌우 대칭의 균형이 맞지 않을 때 진행하는 교정입니다. 턱의 비대칭을 교정하여 균형 잡힌 얼굴 라인과 안정적인 교합을 달성합니다.</p>
-                                <a href="#sec-asym" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-asym').scrollIntoView({behavior:'smooth',block:'start'})">자세히 보기 <i class="ph ph-arrow-right"></i></a>
+                                <h3>恢復左右平衡的<br><em>顏面不對稱矯正</em></h3>
+                                <p>適用於臉部上下長度或左右對稱失衡的情況。矯正顎部不對稱，達到均衡的臉部線條與穩定的咬合。</p>
+                                <a href="#sec-asym" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-asym').scrollIntoView({behavior:'smooth',block:'start'})">了解更多 <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1310,8 +1336,8 @@
                         <div class="lm-types-panel-grid">
                             <div class="lm-types-panel-images" style="grid-template-columns:1fr;">
                                 <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3;">
-                                    <div class="lm-ba-slider-before"><img src="images/ortho/%EB%8F%8C%EC%B6%9C%EC%9E%85%20%EC%A0%84.jpg" alt="Before"></div>
-                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/%EB%8F%8C%EC%B6%9C%EC%9E%85%20%ED%9B%84.jpg" alt="After"></div>
+                                    <div class="lm-ba-slider-before"><img src="/images/ortho/돌출입 전.jpg" alt="Before"></div>
+                                    <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/돌출입 후.jpg" alt="After"></div>
                                     <div class="lm-ba-slider-divider"></div>
                                     <div class="lm-ba-slider-handle">
                                         <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1324,9 +1350,9 @@
                             </div>
                             <div class="lm-types-panel-text">
                                 <span class="lm-types-panel-badge">Type 03</span>
-                                <h3>자연스러운 옆모습을 위한<br><em>돌출입 교정</em></h3>
-                                <p>코 끝이나 턱 끝에 비해 입이 앞으로 돌출되어 옆모습 개선이 필요한 경우 진행하는 교정입니다. E-line을 개선하고 자연스러운 입술 라인을 되찾아 드립니다.</p>
-                                <a href="#sec-prot" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-prot').scrollIntoView({behavior:'smooth',block:'start'})">자세히 보기 <i class="ph ph-arrow-right"></i></a>
+                                <h3>打造自然側臉的<br><em>暴牙矯正</em></h3>
+                                <p>適用於嘴巴相對於鼻尖或下巴向前突出，需要改善側臉的情況。改善E線並找回自然的嘴唇線條。</p>
+                                <a href="#sec-prot" class="lm-types-panel-link" onclick="event.preventDefault();document.getElementById('sec-prot').scrollIntoView({behavior:'smooth',block:'start'})">了解更多 <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1334,20 +1360,20 @@
             </div>
         </section>
 
-        <!-- ===== SECTION 4: 주걱턱 교정 상세 ===== -->
+        <!-- ===== SECTION 4: 戽斗矯正 상세 ===== -->
         <section class="lm-detail lm-detail--jaw" id="sec-jaw">
             <div class="lm-inner">
                 <div class="lm-detail-header">
                     <span class="lm-section-label lm-fade">PROGNATHISM</span>
-                    <h2 class="lm-section-h2 lm-fade">주걱턱 교정</h2>
-                    <p class="lm-fade">아래턱 성장이 과도하거나 위턱 성장이 상대적으로 부족하여 아래턱이 튀어나온 경우 진행하는 교정으로, 골격적 부조화를 해결하여 얼굴 균형과 정상적인 교합을 회복시킵니다.</p>
+                    <h2 class="lm-section-h2 lm-fade">戽斗矯正</h2>
+                    <p class="lm-fade">適用於下顎過度生長或上顎生長相對不足導致下顎突出的矯正，透過解決骨骼不協調，恢復臉部平衡與正常咬合。</p>
                 </div>
 
                 <div class="lm-detail-intro">
                     <div class="lm-detail-intro-img lm-fade">
                         <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3; border-radius:var(--lm-radius);">
-                            <div class="lm-ba-slider-before"><img src="images/ortho/1.jpg" alt="Before"></div>
-                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/2.jpg" alt="After"></div>
+                            <div class="lm-ba-slider-before"><img src="/images/ortho/1.jpg" alt="Before"></div>
+                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/2.jpg" alt="After"></div>
                             <div class="lm-ba-slider-divider"></div>
                             <div class="lm-ba-slider-handle">
                                 <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1359,52 +1385,52 @@
                         </div>
                     </div>
                     <div class="lm-detail-intro-text lm-fade lm-fade-delay-1">
-                        <h3>아래턱 돌출로 인한<br><em>얼굴 불균형 개선</em></h3>
-                        <p>주걱턱(하악전돌증)은 아래턱이 위턱보다 앞으로 나와 있는 상태로, 옆에서 보았을 때 아래턱이 돌출되어 보이고 정면에서는 얼굴이 길어 보이는 특징이 있습니다. 저작 기능의 저하뿐 아니라 발음 문제, 턱관절 장애를 동반할 수 있어 적극적인 교정이 필요합니다.</p>
+                        <h3>改善因下顎突出造成的<br><em>臉部不均衡</em></h3>
+                        <p>戽斗（下顎前突症）是下顎突出於上顎的狀態，從側面看下顎顯得突出，從正面看臉部顯得較長。不僅會導致咀嚼功能下降，還可能伴隨發音問題及顎關節障礙，需要積極矯正。</p>
                     </div>
                 </div>
 
                 <!-- Need Cards -->
                 <div class="lm-need-section">
                     <div class="lm-need-title lm-fade">
-                        <h3><i class="ph-fill ph-user-check"></i> 이런 분들에게 필요합니다</h3>
+                        <h3><i class="ph-fill ph-user-check"></i> 適合以下患者</h3>
                     </div>
                     <div class="lm-need-grid">
                         <div class="lm-need-card lm-fade">
                             <i class="ph ph-arrows-out-line-vertical"></i>
-                            <p>아래턱이 위턱보다 앞으로 나온 경우</p>
+                            <p>下顎突出於上顎的情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-1">
                             <i class="ph ph-user"></i>
-                            <p>얼굴이 길어 인상이 강해보이거나 나이가 들어 보이는 경우</p>
+                            <p>臉部顯長而顯得嚴肅或老態的情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-2">
                             <i class="ph ph-fork-knife"></i>
-                            <p>위아래 치아가 거꾸로 물려 저작 효율이 떨어지는 경우</p>
+                            <p>上下牙齒反咬導致咀嚼效率降低的情況</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== SECTION 5: 안면비대칭 교정 상세 ===== -->
+        <!-- ===== SECTION 5: 顏面不對稱矯正 상세 ===== -->
         <section class="lm-detail lm-detail--asym" id="sec-asym">
             <div class="lm-inner">
                 <div class="lm-detail-header">
                     <span class="lm-section-label lm-fade">ASYMMETRY</span>
-                    <h2 class="lm-section-h2 lm-fade">안면비대칭 교정</h2>
-                    <p class="lm-fade">얼굴의 상하 길이 혹은 좌우 대칭의 균형이 맞지 않을 때 진행하는 교정으로, 턱의 비대칭을 교정하여 균형 잡힌 얼굴 라인과 안정적인 교합을 동시에 달성합니다.</p>
+                    <h2 class="lm-section-h2 lm-fade">顏面不對稱矯正</h2>
+                    <p class="lm-fade">適用於臉部上下長度或左右對稱失衡的矯正，同時矯正顎部不對稱，達到均衡的臉部線條與穩定的咬合。</p>
                 </div>
 
                 <div class="lm-detail-intro">
                     <div class="lm-detail-intro-text lm-fade">
-                        <h3>좌우 균형을 되찾는<br><em>안면 대칭 교정</em></h3>
-                        <p>안면비대칭은 위턱 또는 아래턱의 좌우 길이가 다르거나, 턱이 한쪽으로 치우쳐 얼굴의 정중선이 어긋나는 상태입니다. 심미적 문제뿐 아니라 한쪽으로 편중된 저작 습관, 턱관절 통증, 치아 정중앙선의 불일치 등 기능적 문제를 동반할 수 있습니다.</p>
+                        <h3>恢復左右平衡的<br><em>顏面對稱矯正</em></h3>
+                        <p>顏面不對稱是指上顎或下顎左右長度不同，或下顎偏向一側導致臉部中線偏移的狀態。不僅有審美問題，還可能伴隨偏側咀嚼習慣、顎關節疼痛、牙齒中線不一致等功能性問題。</p>
                     </div>
                     <div class="lm-detail-intro-img lm-fade lm-fade-delay-1">
                         <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3; border-radius:var(--lm-radius);">
-                            <div class="lm-ba-slider-before"><img src="images/ortho/%EC%95%88%EB%A9%B4%EB%B9%84%EB%8C%80%EC%B9%AD%20%EC%A0%84.jpg" alt="Before"></div>
-                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/%EC%95%88%EB%A9%B4%EB%B9%84%EB%8C%80%EC%B9%AD%20%ED%9B%84.jpg" alt="After"></div>
+                            <div class="lm-ba-slider-before"><img src="/images/ortho/안면비대칭 전.jpg" alt="Before"></div>
+                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/안면비대칭 후.jpg" alt="After"></div>
                             <div class="lm-ba-slider-divider"></div>
                             <div class="lm-ba-slider-handle">
                                 <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1420,40 +1446,40 @@
                 <!-- Need Cards -->
                 <div class="lm-need-section">
                     <div class="lm-need-title lm-fade">
-                        <h3><i class="ph-fill ph-user-check"></i> 이런 분들에게 필요합니다</h3>
+                        <h3><i class="ph-fill ph-user-check"></i> 適合以下患者</h3>
                     </div>
                     <div class="lm-need-grid">
                         <div class="lm-need-card lm-fade">
                             <i class="ph ph-arrows-horizontal"></i>
-                            <p>위턱의 좌우 길이가 맞지 않는 경우</p>
+                            <p>上顎左右長度不一致的情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-1">
                             <i class="ph ph-subtract-square"></i>
-                            <p>아래턱의 좌우 대칭이 맞지 않는 경우</p>
+                            <p>下顎左右對稱不一致的情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-2">
                             <i class="ph ph-align-center-vertical-simple"></i>
-                            <p>치아의 정중앙선이 위아래 치아끼리 많이 어긋난 경우</p>
+                            <p>上下牙齒中線偏差較大的情況</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== SECTION 6: 돌출입 교정 상세 ===== -->
+        <!-- ===== SECTION 6: 暴牙矯正 상세 ===== -->
         <section class="lm-detail lm-detail--prot" id="sec-prot">
             <div class="lm-inner">
                 <div class="lm-detail-header">
                     <span class="lm-section-label lm-fade">PROTRUSION</span>
-                    <h2 class="lm-section-h2 lm-fade">돌출입 교정</h2>
-                    <p class="lm-fade">옆에서 보았을 때 코 끝이나 턱 끝에 비해 입이 앞으로 돌출된 경우 진행하는 교정으로, 옆모습의 E-line을 개선하고 자연스러운 입술 라인을 되찾아 드립니다.</p>
+                    <h2 class="lm-section-h2 lm-fade">暴牙矯正</h2>
+                    <p class="lm-fade">適用於從側面看嘴巴相對於鼻尖或下巴向前突出的矯正，改善側臉E線並找回自然的嘴唇線條。</p>
                 </div>
 
                 <div class="lm-detail-intro">
                     <div class="lm-detail-intro-img lm-fade">
                         <div class="lm-ba-slider" data-ba="true" style="aspect-ratio:4/3; border-radius:var(--lm-radius);">
-                            <div class="lm-ba-slider-before"><img src="images/ortho/%EB%8F%8C%EC%B6%9C%EC%9E%85%20%EC%A0%84.jpg" alt="Before"></div>
-                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="images/ortho/%EB%8F%8C%EC%B6%9C%EC%9E%85%20%ED%9B%84.jpg" alt="After"></div>
+                            <div class="lm-ba-slider-before"><img src="/images/ortho/돌출입 전.jpg" alt="Before"></div>
+                            <div class="lm-ba-slider-after" style="clip-path:inset(0 0 0 50%);"><img src="/images/ortho/돌출입 후.jpg" alt="After"></div>
                             <div class="lm-ba-slider-divider"></div>
                             <div class="lm-ba-slider-handle">
                                 <svg viewBox="0 0 24 24"><path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:var(--lm-gold);"/></svg>
@@ -1465,28 +1491,28 @@
                         </div>
                     </div>
                     <div class="lm-detail-intro-text lm-fade lm-fade-delay-1">
-                        <h3>자연스러운 옆모습을 위한<br><em>돌출입 개선</em></h3>
-                        <p>돌출입은 치아나 치조골이 앞으로 돌출되어 입이 나와 보이는 상태로, 입을 다물기 어렵거나 무의식적으로 입이 벌어지는 증상을 동반할 수 있습니다. 긴 얼굴, 안면비대칭, 잇몸과다노출(거미스마일) 등을 동반하는 경우가 많으며, 정확한 진단을 통해 개인에 맞는 최적의 교정 방법을 적용합니다.</p>
+                        <h3>打造自然側臉的<br><em>暴牙改善</em></h3>
+                        <p>暴牙是牙齒或牙槽骨向前突出，使嘴巴看起來突出的狀態，可能伴隨難以閉嘴或無意識地嘴巴張開的症狀。常伴有臉長、顏面不對稱、牙齦過度暴露（牙齦笑）等，透過精確診斷為個人提供最適合的矯正方法。</p>
                     </div>
                 </div>
 
                 <!-- Need Cards -->
                 <div class="lm-need-section">
                     <div class="lm-need-title lm-fade">
-                        <h3><i class="ph-fill ph-user-check"></i> 이런 분들에게 필요합니다</h3>
+                        <h3><i class="ph-fill ph-user-check"></i> 適合以下患者</h3>
                     </div>
                     <div class="lm-need-grid">
                         <div class="lm-need-card lm-fade">
                             <i class="ph ph-user-rectangle"></i>
-                            <p>긴 얼굴을 동반한 돌출입의 경우</p>
+                            <p>伴有臉長的暴牙情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-1">
                             <i class="ph ph-arrows-split"></i>
-                            <p>안면비대칭을 동반한 돌출입의 경우</p>
+                            <p>伴有顏面不對稱的暴牙情況</p>
                         </div>
                         <div class="lm-need-card lm-fade lm-fade-delay-2">
                             <i class="ph ph-smiley-nervous"></i>
-                            <p>잇몸과다노출을 동반한 돌출입의 경우</p>
+                            <p>伴有牙齦過度暴露的暴牙情況</p>
                         </div>
                     </div>
                 </div>
@@ -1497,58 +1523,58 @@
         <section class="lm-faq-section">
             <div class="lm-inner" style="text-align:center;">
                 <span class="lm-section-label lm-fade">FAQ</span>
-                <h2 class="lm-section-h2 lm-fade">자주 묻는 질문</h2>
+                <h2 class="lm-section-h2 lm-fade">常見問題</h2>
             </div>
             <div class="lm-inner">
                 <div class="lm-faq-list">
                     <div class="lm-faq-item lm-fade">
                         <button class="lm-faq-q" onclick="toggleFaq(this)">
                             <span class="lm-faq-prefix">Q.</span>
-                            <span class="lm-faq-text">선수술 교정이란 무엇인가요?</span>
+                            <span class="lm-faq-text">什麼是手術優先矯正？</span>
                             <i class="ph ph-caret-down"></i>
                         </button>
                         <div class="lm-faq-a">
-                            <strong>A.</strong> 선수술 교정은 턱수술을 먼저 시행한 뒤 교정 치료를 진행하는 방법입니다. 수술을 통해 골격적 부조화를 먼저 해결하므로 외모 개선이 빠르게 이루어지며, 비정상적인 골격이 정상 골격으로 바뀌면서 심미적 만족감을 조기에 얻을 수 있습니다. 수술 후 변화된 턱과 치아의 위치를 정밀하게 재조정하여 교합과 치아의 기능을 안정시키고 회복시키는 것이 핵심 목적입니다.
+                            <strong>A.</strong> 手術優先矯正是先進行顎骨手術，之後再進行矯正治療的方法。透過手術先解決骨骼不調和，因此外觀改善迅速，異常骨骼恢復正常後，也能提早獲得審美滿意度。術後對改變的顎骨與牙齒位置進行精密調整，使咬合與牙齒功能穩定恢復，是其核心目的。
                         </div>
                     </div>
                     <div class="lm-faq-item lm-fade lm-fade-delay-1">
                         <button class="lm-faq-q" onclick="toggleFaq(this)">
                             <span class="lm-faq-prefix">Q.</span>
-                            <span class="lm-faq-text">양악수술 후 교정이 꼭 필요한가요?</span>
+                            <span class="lm-faq-text">雙顎手術後一定需要矯正嗎？</span>
                             <i class="ph ph-caret-down"></i>
                         </button>
                         <div class="lm-faq-a">
-                            <strong>A.</strong> 양악수술은 골격적 기형을 해결할 수 있는 수술 방법이며, 수술 후 골격의 위치를 올바른 위치로 재조정하면 치아의 맞물림이 변할 수 있습니다. 따라서 양악수술 후에는 치아 교정이 필요할 수 있으며, 수술과 교정을 협진하여 진행함으로써 부정교합을 개선하고 안정된 결과를 얻을 수 있습니다.
+                            <strong>A.</strong> 雙顎手術是解決骨骼畸形的手術方式，術後將骨骼重新調整至正確位置時，牙齒的咬合可能發生改變。因此雙顎手術後可能需要牙齒矯正，透過手術與矯正的協作治療，可改善咬合不正並獲得穩定的結果。
                         </div>
                     </div>
                     <div class="lm-faq-item lm-fade lm-fade-delay-2">
                         <button class="lm-faq-q" onclick="toggleFaq(this)">
                             <span class="lm-faq-prefix">Q.</span>
-                            <span class="lm-faq-text">주걱턱 교정은 누구에게 필요한가요?</span>
+                            <span class="lm-faq-text">誰需要戽斗矯正？</span>
                             <i class="ph ph-caret-down"></i>
                         </button>
                         <div class="lm-faq-a">
-                            <strong>A.</strong> 주걱턱 교정은 아래턱 성장이 과도하거나 위턱 성장이 상대적으로 부족해서 아래턱이 튀어나온 경우에 필요합니다. 얼굴이 길어 인상이 강해보이거나 나이가 들어 보이는 경우, 위아래 치아가 거꾸로 물려 저작 효율이 떨어지는 경우에도 교정을 통해 개선할 수 있습니다.
+                            <strong>A.</strong> 戽斗矯正適用於下顎過度生長或上顎生長相對不足，導致下顎突出的情況。臉部顯長而顯得嚴肅或老態的情況、上下牙齒反咬導致咀嚼效率降低的情況，也可透過矯正加以改善。
                         </div>
                     </div>
                     <div class="lm-faq-item lm-fade lm-fade-delay-3">
                         <button class="lm-faq-q" onclick="toggleFaq(this)">
                             <span class="lm-faq-prefix">Q.</span>
-                            <span class="lm-faq-text">교정 기간은 보통 얼마나 걸리나요?</span>
+                            <span class="lm-faq-text">矯正期間通常需要多久？</span>
                             <i class="ph ph-caret-down"></i>
                         </button>
                         <div class="lm-faq-a">
-                            <strong>A.</strong> 일반적으로 전체 교정은 12~24개월, 부분 교정은 3~6개월 정도 소요됩니다. 환자의 치아 상태, 교정 난이도, 사용하는 장치 종류에 따라 기간이 달라질 수 있으며, 정확한 기간은 정밀 진단 후 안내해 드립니다.
+                            <strong>A.</strong> 一般而言，全口矯正需12~24個月，局部矯正需3~6個月左右。根據患者的牙齒狀態、矯正難易度及裝置種類，期間可能有所不同，精確期間將於精密診斷後告知。
                         </div>
                     </div>
                     <div class="lm-faq-item lm-fade lm-fade-delay-3">
                         <button class="lm-faq-q" onclick="toggleFaq(this)">
                             <span class="lm-faq-prefix">Q.</span>
-                            <span class="lm-faq-text">교정 후 유지장치는 꼭 해야 하나요?</span>
+                            <span class="lm-faq-text">矯正後一定要戴保持器嗎？</span>
                             <i class="ph ph-caret-down"></i>
                         </button>
                         <div class="lm-faq-a">
-                            <strong>A.</strong> 네, 교정 완료 후 유지장치 착용은 매우 중요합니다. 치아는 원래 위치로 돌아가려는 경향이 있기 때문에, 교정 결과를 안정적으로 유지하기 위해 일정 기간 유지장치를 착용해야 합니다. 스마일뷰에서는 고정식 또는 가철식 유지장치를 제공하며, 정기적인 관리를 통해 장기적으로 아름다운 미소를 유지할 수 있도록 도와드립니다.
+                            <strong>A.</strong> 是的，矯正完成後佩戴保持器非常重要。由於牙齒有回到原位的傾向，為穩定維持矯正結果，需佩戴一定期間的保持器。SMILEVIEW提供固定式或活動式保持器，透過定期管理，幫助您長期維持美麗笑容。
                         </div>
                     </div>
                 </div>
@@ -1556,7 +1582,7 @@
         </section>
 
         <!-- ===== SCROLL TOP ===== -->
-        <button class="lm-scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="맨 위로">
+        <button class="lm-scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="回到頂部">
             <i class="ph ph-arrow-up"></i>
         </button>
 
@@ -1569,13 +1595,13 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h2>SMILEVIEW<span>.</span></h2>
-                    <p>투명하고 편리한 교정부터 심미 치료까지,<br>스마일뷰치과가 당신의 아름다운 미소를 만들어 드립니다.</p>
+                    <p>從透明便利的矯正療程到美容牙科治療，<br>SMILEVIEW牙醫診所為您打造完美迷人的笑容。</p>
                 </div>
                 <div class="footer-col">
                     <h3>Location</h3>
                     <ul>
-                        <li>서울특별시 강남구 봉은사로 107, 15층</li>
-                        <li style="font-size:12px;color:rgba(255,255,255,0.25);">(논현동 201 16번지 15층)</li>
+                        <li>首爾特別市 江南區 奉恩寺路 107, 15樓</li>
+                        <li style="font-size:12px;color:rgba(255,255,255,0.25);">(論峴洞 201 16番地 15樓)</li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -1583,19 +1609,19 @@
                     <ul>
                         <li><a href="tel:02-552-7528">TEL. 02-552-7528</a></li>
                         <li>FAX. 02-552-7527</li>
-                        <li><span class="footer-label">대표자</span>김한결</li>
-                        <li><span class="footer-label">사업자번호</span>699-29-00572</li>
+                        <li><span class="footer-label">代表人</span>金韓結</li>
+                        <li><span class="footer-label">營業登記號</span>699-29-00572</li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Hours</h3>
                     <ul class="footer-hours">
-                        <li><span class="day">평일</span><span>AM 10:00 - PM 06:30</span></li>
-                        <li class="note">점심시간 PM 01:00 - PM 02:00</li>
-                        <li><span class="day">토요일</span><span>AM 10:00 - PM 03:00</span></li>
-                        <li class="note">점심시간 없이 진료</li>
-                        <li><span class="day">일요일</span><span>AM 10:00 - PM 04:00</span></li>
-                        <li class="closed"><span class="day">휴진</span><span>공휴일</span></li>
+                        <li><span class="day">平日</span><span>AM 10:00 - PM 06:30</span></li>
+                        <li class="note">午休時間 PM 01:00 - PM 02:00</li>
+                        <li><span class="day">週六</span><span>AM 10:00 - PM 03:00</span></li>
+                        <li class="note">無午休持續看診</li>
+                        <li><span class="day">週日</span><span>AM 10:00 - PM 04:00</span></li>
+                        <li class="closed"><span class="day">休診</span><span>國定假日</span></li>
                     </ul>
                 </div>
             </div>
@@ -1810,10 +1836,10 @@
     <!-- Floating SNS -->
     <div class="sv-float-sns" id="floatSns">
         <div class="sv-float-sns-list">
-            <a href="https://www.instagram.com/smileview_dental/" class="sv-float-btn sv-float-btn--instagram" title="Instagram" target="_blank">
+            <a href="https://www.instagram.com/smileview_tw/" class="sv-float-btn sv-float-btn--instagram" title="Instagram" target="_blank">
                 <i class="ph-fill ph-instagram-logo"></i>
             </a>
-            <a href="#" class="sv-float-btn sv-float-btn--line" title="LINE" target="_blank">
+            <a href="https://lin.ee/lHEp9er" class="sv-float-btn sv-float-btn--line" title="LINE" target="_blank">
                 <i class="ph-fill ph-chat-circle-dots"></i>
             </a>
         </div>
@@ -1828,6 +1854,6 @@
         if (ls && !ls.contains(e.target)) ls.classList.remove('open');
     });
     </script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

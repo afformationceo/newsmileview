@@ -1,0 +1,9 @@
+# 공개 사이트에 필요한 파일만 배포 (작업용 스크립트·스크린샷·원본 소스 제외)
+/*
+!/*.html
+!/css
+!/js
+!/images
+!/robots.txt
+!/sitemap.xml
+/source_*.html

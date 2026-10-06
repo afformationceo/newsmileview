@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>치아미백 | 스마일뷰치과의원</title>
+    <title>韓國牙齒美白（診間美白）｜SMILEVIEW 江南</title>
+    <!-- SEO:START -->
+    <meta name="description" content="先保護牙齦，再以專業美白劑與光照，短時間讓牙齒變白。針對變色與色素沉澱的診間美白，附治療前後案例。首爾江南SMILEVIEW。">
+    <link rel="canonical" href="https://www.smileview-dental.com/zh-tw/teeth-whitening">
+    <link rel="alternate" hreflang="ko" href="https://www.smileview-dental.com/teeth-whitening">
+    <link rel="alternate" hreflang="ja" href="https://www.smileview-dental.com/ja/teeth-whitening">
+    <link rel="alternate" hreflang="zh-TW" href="https://www.smileview-dental.com/zh-tw/teeth-whitening">
+    <link rel="alternate" hreflang="x-default" href="https://www.smileview-dental.com/teeth-whitening">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SMILEVIEW牙醫診所">
+    <meta property="og:title" content="韓國牙齒美白（診間美白）｜SMILEVIEW 江南">
+    <meta property="og:description" content="先保護牙齦，再以專業美白劑與光照，短時間讓牙齒變白。針對變色與色素沉澱的診間美白，附治療前後案例。首爾江南SMILEVIEW。">
+    <meta property="og:url" content="https://www.smileview-dental.com/zh-tw/teeth-whitening">
+    <meta property="og:image" content="https://www.smileview-dental.com/images/og/clinic.jpg">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- SEO:END -->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animations.css">
     <style>
     /* ===== LAMINATE PREMIUM DESIGN SYSTEM ===== */
     :root {
@@ -86,7 +104,7 @@
     }
     .lm-hero-bg {
         position: absolute; inset: 0; z-index: 0;
-        background: url('images/migrated/whitening_3.jpg') center 70%/cover no-repeat;
+        background: url('/images/migrated/whitening_3.jpg') center 70%/cover no-repeat;
         opacity: 0.3;
     }
     .lm-hero-overlay {
@@ -136,7 +154,7 @@
     /* ===== TITLE BAND ===== */
     .lm-title-band {
         position: relative; width: 100%; height: 100%; overflow: hidden;
-        background: url('images/제목을 입력해주세요..jpg') center/cover no-repeat;
+        background: url('/images/제목을 입력해주세요..jpg') center/cover no-repeat;
         display: flex; align-items: center; justify-content: center;
     }
     .lm-title-band-overlay {
@@ -1242,7 +1260,7 @@
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 1024px) {
-        .lm-horizontal { margin-top: 80px; }
+        .lm-horizontal { margin-top: 0; }
         .lm-h-wrap { display: flex; flex-direction: column; flex-wrap: nowrap; }
         .lm-h-panel { width: 100%; height: auto; min-height: 100vh; }
         .lm-h-panel--def { width: 100%; min-height: auto; }
@@ -1419,34 +1437,42 @@
         .lm-footer-info { font-size: 12px; }
         .lm-scroll-top { right: 16px; bottom: 24px; width: 40px; height: 40px; }
     }
+    
+    @media (max-width: 1024px) { .lm-hero { min-height: 100svh; } }
+    
+    @media (max-width: 1024px) {
+        .lm-h-panel--title { display: flex; flex-direction: column; min-height: 60vh; }
+        .lm-title-band { flex: 1; min-height: 60vh; }
+    }
     </style>
 </head>
 <body>
     <header id="main-header">
         <div class="header-container">
-            <div class="logo"><a href="index.html">SMILEVIEW</a></div>
+            <div class="logo"><a href="/zh-tw">SMILEVIEW</a></div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="introduction.html">스마일뷰치과</a></li>
-                    <li><a href="invisalign.html">인비절라인</a></li>
-                    <li><a href="ortho.html">치아교정</a></li>
-                    <li><a href="whitening.html" class="active">치아미백</a></li>
-                    <li><a href="laminate.html">원데이 라미네이트</a></li>
-                    <li><a href="implant.html">수면 임플란트</a></li>
-                    <li><a href="prosthetics.html">보철치료</a></li>
+                    <li><a href="/zh-tw/about">診所介紹</a></li>
+                    <li><a href="/zh-tw/invisalign">隱適美</a></li>
+                    <li><a href="/zh-tw/orthodontics">牙齒矯正</a></li>
+                    <li><a href="/zh-tw/teeth-whitening" class="active">牙齒美白</a></li>
+                    <li><a href="/zh-tw/laminate-veneers">單日陶瓷貼片</a></li>
+                    <li><a href="/zh-tw/sleep-implant">舒眠植牙</a></li>
+                    <li><a href="/zh-tw/prosthetics">全瓷冠・假牙</a></li>
                 </ul>
             </nav>
             <div class="header-right">
                 <div class="lang-selector" id="langSelector">
                     <span class="lang-icon"><i class="ph ph-globe"></i></span>
-                    <button class="lang-current" onclick="document.getElementById('langSelector').classList.toggle('open')">KO</button>
+                    <button type="button" class="lang-current" onclick="this.closest('.lang-selector').classList.toggle('open')">TW</button>
                     <div class="lang-dropdown">
-                        <a href="#" class="active">한국어 (KO)</a>
-                        <a href="whitening_tw.html">繁體中文 (TW)</a>
-                        <a href="whitening_jp.html">日本語 (JP)</a>
+                        <a href="/teeth-whitening">한국어 (KO)</a>
+                        <a href="https://www.smileviewdental.clinic/" target="_blank">English (US)</a>
+                        <a href="#" class="active">繁體中文 (TW)</a>
+                        <a href="/ja/teeth-whitening">日本語 (JP)</a>
                     </div>
                 </div>
-                <a href="#" class="btn-reserve">예약하기</a>
+                <a href="https://lin.ee/lHEp9er" class="btn-reserve">立即預約</a>
                 <div class="mobile-menu-btn"><i class="ph ph-list"></i></div>
             </div>
         </div>
@@ -1457,16 +1483,16 @@
         <div class="mobile-menu-inner">
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="introduction.html">병원소개</a></li>
-                    <li><a href="invisalign.html">인비절라인</a></li>
-                    <li><a href="ortho.html">치아교정</a></li>
-                    <li><a href="whitening.html">치아미백</a></li>
-                    <li><a href="laminate.html">원데이 라미네이트</a></li>
-                    <li><a href="implant.html">수면 임플란트</a></li>
-                    <li><a href="prosthetics.html">보철치료</a></li>
+                    <li><a href="/zh-tw/about">診所介紹</a></li>
+                    <li><a href="/zh-tw/invisalign">隱適美</a></li>
+                    <li><a href="/zh-tw/orthodontics">牙齒矯正</a></li>
+                    <li><a href="/zh-tw/teeth-whitening">牙齒美白</a></li>
+                    <li><a href="/zh-tw/laminate-veneers">單日陶瓷貼片</a></li>
+                    <li><a href="/zh-tw/sleep-implant">舒眠植牙</a></li>
+                    <li><a href="/zh-tw/prosthetics">全瓷冠・假牙</a></li>
                 </ul>
             </nav>
-            <a href="https://naver.me/xoBKVJA6" class="mobile-reserve-btn" target="_blank">온라인 예약</a>
+            <a href="https://naver.me/xoBKVJA6" class="mobile-reserve-btn" target="_blank">線上預約</a>
         </div>
     </div>
 
@@ -1485,12 +1511,12 @@
                 <div class="lm-hero-lbx"><span>SMILE</span></div>
                 <div class="lm-hero-rbx"><span>WHITENING</span></div>
                 <p class="lm-hero-desc">
-                    밝고 자신감 있는 미소를 만드는 치아미백,<br>
-                    스마일뷰의 전문 미백 시술로 환한 미소를 완성합니다.
+                    打造明亮自信笑容的牙齒美白，<br>
+                    透過SMILEVIEW的專業美白療程，成就燦爛動人的笑容。
                 </p>
                 <p class="lm-hero-desc2">
-                    변색된 치아를 안전하고 효과적으로 밝게 개선하여<br>
-                    본연의 깨끗하고 아름다운 미소를 되찾아 드립니다.
+                    安全有效地改善變色牙齒，<br>
+                    還您原本潔白美麗的笑容。
                 </p>
             </div>
             <!-- Scroll Down -->
@@ -1514,7 +1540,7 @@
             <div class="lm-title-band-overlay"></div>
             <div class="lm-title-band-content">
                 <h2>Teeth<br>Whitening</h2>
-                <p class="lm-kr-sub">치아미백</p>
+                <h1 class="lm-kr-sub">牙齒美白</h1>
                 <div class="lm-badge">
                     <span>SMILEVIEW WHITENING</span>
                 </div>
@@ -1548,16 +1574,16 @@
             <div class="lm-def-con">
                 <div class="lm-def-tit">
                     <span class="lm-def-num">01</span>
-                    <h2 class="lm-def-title">치아미백이란?</h2>
+                    <h2 class="lm-def-title">什麼是牙齒美白？</h2>
                     <p class="lm-def-body">
-                        치아 미백은 얼룩이나 변색된 치아를 밝고 깨끗하게 만드는 치과 치료 방법입니다. 미백제나 특수 광선을 이용하여 치아를 효과적으로 미백하며, 전문적인 상담을 통해 안전하게 진행됩니다. 스마일뷰치과에서는 개인의 치아 상태에 따라 1:1 맞춤시술을 진행하여 앞니뿐만 아니라 잘 보이지 않는 안쪽 치아까지 꼼꼼하게 다루어 만족감이 높은 치료를 제공합니다.
+                        牙齒美白是一種將有色素沉澱或變色牙齒恢復明亮潔白的牙科治療方式，透過美白藥劑或特殊光源有效改善牙色，並在專業諮詢下安全進行。SMILEVIEW牙醫診所依據個人牙齒狀況提供一對一客製化療程，不僅針對前齒，連不易看見的內側牙齒也細心處理，提供令患者高度滿意的治療成果。
                     </p>
                 </div>
                 <div class="lm-def-divider"></div>
                 <div class="lm-def-sub">
                     <p>
-                        <b>종류</b>
-                        <span>전문가 미백, 자가 미백, 복합 미백, 워킹 블리칭, 잇몸 미백, 웨딩 미백 등</span>
+                        <b>種類</b>
+                        <span>診間美白、居家美白、複合美白、內漂白（死髓牙美白）、牙齦美白、婚禮美白等</span>
                     </p>
                 </div>
             </div>
@@ -1572,61 +1598,61 @@
             <div class="lm-inner">
                 <div class="lm-confidence-header lm-fade">
                     <span class="lm-confidence-badge"><i class="ph ph-tooth"></i> WHITENING</span>
-                    <h2 class="lm-confidence-title">치아미백<br><em>45분</em>만에 되찾는 미소 자신감</h2>
+                    <h2 class="lm-confidence-title">牙齒美白，<br><em>45分鐘</em>重拾笑容自信</h2>
                     <p class="lm-confidence-desc">
-                        치아 손상 없이 변색된 치아를 하얗게 만드는 시술로 고농도 과산화수소와 광원 조사 과정을 통해<br>
-                        시술 즉시 치아가 밝아지는 효과가 나타납니다.
+                        透過高濃度過氧化氫搭配光源照射，在不傷害牙齒的情況下將變色牙恢復潔白，<br>
+                        療程結束後即可看到牙齒明顯變亮的效果。
                     </p>
                 </div>
                 <div class="lm-confidence-grid">
                     <div class="lm-confidence-img-wrap lm-fade-left">
                         <div class="lm-confidence-img">
-                            <img src="images/whitening/confidence.jpg" alt="치아미백 시술">
+                            <img src="/images/whitening/confidence.jpg" alt="牙齒美白療程">
                         </div>
                         <div class="lm-confidence-float-stat">
                             <span class="lm-confidence-float-num">45</span>
                             <span class="lm-confidence-float-unit">MIN</span>
-                            <span class="lm-confidence-float-text">즉각적인 미백 효과</span>
+                            <span class="lm-confidence-float-text">即刻美白效果</span>
                         </div>
                     </div>
                     <div class="lm-confidence-right lm-fade-right">
                         <div>
-                            <p class="lm-confidence-sub-title">시술대상</p>
+                            <p class="lm-confidence-sub-title">適合對象</p>
                             <div class="lm-target-grid">
                                 <div class="lm-target-card lm-fade lm-stagger-1">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
-                                    <span>선천적으로 치아가 노란 경우</span>
+                                    <span>天生牙齒偏黃者</span>
                                 </div>
                                 <div class="lm-target-card lm-fade lm-stagger-2">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
                                     <div>
-                                        <span>생활습관으로 인한 착색이 있는 경우</span>
-                                        <p class="lm-target-card-note">ex. 커피, 카레, 흡연</p>
+                                        <span>因生活習慣造成牙齒色素沉澱者</span>
+                                        <p class="lm-target-card-note">ex. 咖啡、咖哩、抽菸</p>
                                     </div>
                                 </div>
                                 <div class="lm-target-card lm-fade lm-stagger-3">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
-                                    <span>노화로 인한 치아 변색</span>
+                                    <span>因老化導致牙齒變色者</span>
                                 </div>
                                 <div class="lm-target-card lm-fade lm-stagger-4">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
-                                    <span>교정 후 색상 개선을 원하는 경우</span>
+                                    <span>矯正後希望改善牙色者</span>
                                 </div>
                                 <div class="lm-target-card lm-target-card--wide lm-fade lm-stagger-5">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
-                                    <span>중요한 일정 전 외모 정돈이 필요한 경우</span>
+                                    <span>重要場合前需要整頓儀容者</span>
                                 </div>
                                 <div class="lm-target-card lm-target-card--wide lm-fade lm-stagger-5">
                                     <span class="lm-check-icon"><i class="ph-bold ph-check"></i></span>
-                                    <span>테트라사이클린 등 약물로 인한 치아 변색이 있는 경우</span>
+                                    <span>因四環黴素等藥物導致牙齒變色者</span>
                                 </div>
                             </div>
                         </div>
                         <div class="lm-product-info lm-fade">
                             <i class="ph ph-flask"></i>
                             <div>
-                                <p class="lm-product-info-label">사용제품</p>
-                                <p class="lm-product-info-val">오스템 뷰티스15 <span>(과산화수소 35%)</span></p>
+                                <p class="lm-product-info-label">使用產品</p>
+                                <p class="lm-product-info-val">奧齒泰 Beautys15<span>（過氧化氫35%）</span></p>
                             </div>
                         </div>
                     </div>
@@ -1639,12 +1665,12 @@
 
             <!-- Hero image banner -->
             <div class="lm-info-hero lm-fade">
-                <img class="lm-info-hero-img" src="images/whitening/unnamed (2).jpg" alt="전문 치아미백 시술 과정">
+                <img class="lm-info-hero-img" src="/images/whitening/unnamed (2).jpg" alt="專業牙齒美白療程步驟">
                 <div class="lm-info-hero-overlay"></div>
                 <div class="lm-info-hero-content">
                     <div class="lm-inner">
                         <span class="lm-info-hero-label">PROCEDURE INFO</span>
-                        <h2 class="lm-info-hero-title">전문 미백, <span>디테일</span>이 다릅니다</h2>
+                        <h2 class="lm-info-hero-title">專業美白，<span>細節</span>就是不一樣</h2>
                         <p class="lm-info-hero-sub">Precision whitening with clinical expertise</p>
                         <hr class="lm-info-hero-line">
                     </div>
@@ -1656,38 +1682,38 @@
                 <div class="lm-info-cards">
                     <div class="lm-info-card lm-fade-scale lm-stagger-1">
                         <div class="lm-info-card-icon"><i class="ph ph-clock"></i></div>
-                        <div class="lm-info-card-label">시술시간</div>
-                        <div class="lm-info-card-val"><small>약 </small>45<small>분</small></div>
-                        <p class="lm-info-card-desc">약제 도포 및 광선 조사 포함</p>
+                        <div class="lm-info-card-label">療程時間</div>
+                        <div class="lm-info-card-val"><small>約 </small>45<small>分鐘</small></div>
+                        <p class="lm-info-card-desc">含藥劑塗抹及光源照射</p>
                     </div>
                     <div class="lm-info-card lm-fade-scale lm-stagger-2">
                         <div class="lm-info-card-icon"><i class="ph ph-syringe"></i></div>
-                        <div class="lm-info-card-label">마취방법</div>
-                        <div class="lm-info-card-val"><small>불필요</small></div>
-                        <p class="lm-info-card-desc">비침습적 시술로 통증 최소</p>
+                        <div class="lm-info-card-label">麻醉方式</div>
+                        <div class="lm-info-card-val"><small>免麻醉</small></div>
+                        <p class="lm-info-card-desc">非侵入式療程，疼痛感極低</p>
                     </div>
                     <div class="lm-info-card lm-fade-scale lm-stagger-3">
                         <div class="lm-info-card-icon"><i class="ph ph-arrows-clockwise"></i></div>
-                        <div class="lm-info-card-label">시술횟수</div>
-                        <div class="lm-info-card-val">1~3<small>회</small></div>
-                        <p class="lm-info-card-desc">개인 치아 상태에 따라 조절</p>
+                        <div class="lm-info-card-label">療程次數</div>
+                        <div class="lm-info-card-val">1~3<small>次</small></div>
+                        <p class="lm-info-card-desc">依個人牙齒狀況調整</p>
                     </div>
                     <div class="lm-info-card lm-fade-scale lm-stagger-4">
                         <div class="lm-info-card-icon"><i class="ph ph-calendar-check"></i></div>
-                        <div class="lm-info-card-label">유지기간</div>
-                        <div class="lm-info-card-val">1~2<small>년</small></div>
-                        <p class="lm-info-card-desc">관리 습관에 따라 연장 가능</p>
+                        <div class="lm-info-card-label">維持期間</div>
+                        <div class="lm-info-card-val">1~2<small>年</small></div>
+                        <p class="lm-info-card-desc">依保養習慣可延長維持時間</p>
                     </div>
                 </div>
 
                 <!-- Procedure comparison image -->
                 <div class="lm-info-compare lm-fade" style="margin-top:56px; margin-bottom:48px;">
                     <div style="border-radius:20px; overflow:hidden; border:1px solid rgba(255,255,255,0.08); position:relative;">
-                        <img src="images/whitening/procedure_hero.jpg" alt="전문 의료용 미백제 쉐이드 가이드" style="width:100%; aspect-ratio:16/7; object-fit:cover; display:block;">
+                        <img src="/images/whitening/procedure_hero.jpg" alt="專業醫療級美白劑色階比對板" style="width:100%; aspect-ratio:16/7; object-fit:cover; display:block;">
                         <div style="position:absolute; inset:0; background:linear-gradient(180deg, transparent 50%, rgba(32,29,23,0.6) 100%); pointer-events:none;"></div>
                     </div>
                     <p style="text-align:center; margin-top:16px; font-size:14px; color:rgba(255,255,255,0.5); letter-spacing:-0.02em; line-height:1.6;">
-                        <i class="ph ph-info" style="color:var(--lm-gold); margin-right:6px;"></i>전문 의료용 미백제와 일반 미백제의 성분 농도 차이를 비교한 VITA 쉐이드 가이드
+                        <i class="ph ph-info" style="color:var(--lm-gold); margin-right:6px;"></i>比較專業醫療級美白劑與一般美白劑成分濃度差異的VITA色階比對板
                     </p>
                 </div>
 
@@ -1695,38 +1721,38 @@
                 <div class="lm-info-detail-grid">
                     <div class="lm-info-detail-card lm-fade lm-stagger-1">
                         <span class="lm-info-detail-num">01</span>
-                        <h4>FDA 승인 미백제 사용</h4>
-                        <p>오스템 뷰티스15(과산화수소 35%) 등 FDA 승인을 받은 전문 미백제를 사용하여 안전하고 효과적인 시술을 진행합니다.</p>
+                        <h4>使用FDA核准美白劑</h4>
+                        <p>使用奧齒泰 Beautys15（過氧化氫35%）等FDA核准的專業美白劑，提供安全有效的療程。</p>
                         <div class="lm-info-chips">
-                            <span class="lm-info-chip"><i class="ph ph-shield-check"></i> FDA 승인</span>
-                            <span class="lm-info-chip"><i class="ph ph-flask"></i> 과산화수소 35%</span>
+                            <span class="lm-info-chip"><i class="ph ph-shield-check"></i> FDA核准</span>
+                            <span class="lm-info-chip"><i class="ph ph-flask"></i> 過氧化氫 35%</span>
                         </div>
                     </div>
                     <div class="lm-info-detail-card lm-fade lm-stagger-2">
                         <span class="lm-info-detail-num">02</span>
-                        <h4>1:1 맞춤 컨설팅</h4>
-                        <p>환자의 치아 상태, 변색 정도, 목표 색상을 정밀 진단하여 최적의 미백 농도와 시술 횟수를 결정합니다.</p>
+                        <h4>一對一客製化諮詢</h4>
+                        <p>精密評估患者的牙齒狀況、變色程度及目標色階，決定最適合的美白濃度與療程次數。</p>
                         <div class="lm-info-chips">
-                            <span class="lm-info-chip"><i class="ph ph-user"></i> 개인 맞춤</span>
-                            <span class="lm-info-chip"><i class="ph ph-chart-bar"></i> 정밀 진단</span>
+                            <span class="lm-info-chip"><i class="ph ph-user"></i> 個人客製化</span>
+                            <span class="lm-info-chip"><i class="ph ph-chart-bar"></i> 精密診斷</span>
                         </div>
                     </div>
                     <div class="lm-info-detail-card lm-fade lm-stagger-3">
                         <span class="lm-info-detail-num">03</span>
-                        <h4>시술 후 즉시 일상 복귀</h4>
-                        <p>비침습적 시술로 회복 기간이 필요 없으며, 시술 직후 바로 일상생활이 가능합니다. 별도의 입원이나 휴식이 불필요합니다.</p>
+                        <h4>療程結束後立即恢復日常生活</h4>
+                        <p>非侵入式療程無需恢復期，療程結束後即可立即恢復正常生活，無需住院或特別休息。</p>
                         <div class="lm-info-chips">
-                            <span class="lm-info-chip"><i class="ph ph-lightning"></i> 즉시 복귀</span>
-                            <span class="lm-info-chip"><i class="ph ph-heart"></i> 무통증</span>
+                            <span class="lm-info-chip"><i class="ph ph-lightning"></i> 立即恢復</span>
+                            <span class="lm-info-chip"><i class="ph ph-heart"></i> 無痛</span>
                         </div>
                     </div>
                     <div class="lm-info-detail-card lm-fade lm-stagger-4">
                         <span class="lm-info-detail-num">04</span>
-                        <h4>정기 관리로 효과 유지</h4>
-                        <p>6개월 간격의 정기 방문과 자가 미백 병행으로 미백 효과를 2년 이상 오래 유지할 수 있습니다.</p>
+                        <h4>定期保養維持美白效果</h4>
+                        <p>每6個月定期回診搭配居家美白，可將美白效果維持2年以上。</p>
                         <div class="lm-info-chips">
-                            <span class="lm-info-chip"><i class="ph ph-calendar"></i> 6개월 주기</span>
-                            <span class="lm-info-chip"><i class="ph ph-arrow-clockwise"></i> 유지 관리</span>
+                            <span class="lm-info-chip"><i class="ph ph-calendar"></i> 每6個月</span>
+                            <span class="lm-info-chip"><i class="ph ph-arrow-clockwise"></i> 維持保養</span>
                         </div>
                     </div>
                 </div>
@@ -1737,26 +1763,26 @@
         <section class="lm-discolor">
             <div class="lm-inner">
                 <span class="lm-discolor-label lm-fade">SHADE GUIDE</span>
-                <h2 class="lm-discolor-title lm-fade">내 치아는 얼마나 변색됐을까?</h2>
+                <h2 class="lm-discolor-title lm-fade">我的牙齒變色程度有多深？</h2>
 
                 <div class="lm-shade-visual lm-fade">
                     <div class="lm-shade-tooth-wrap">
                         <div class="lm-shade-glow" id="shadeGlow"></div>
                         <div class="lm-tooth-scene" id="toothScene">
-                            <img class="lm-tooth-img" id="toothImg" src="images/whitening/pngtree-3d-realistic-healthy-molar-tooth-icon-png-image_18185676.webp" alt="3D 어금니 모형">
+                            <img class="lm-tooth-img" id="toothImg" src="/images/whitening/pngtree-3d-realistic-healthy-molar-tooth-icon-png-image_18185676.webp" alt="3D 臼齒模型">
                         </div>
                     </div>
 
-                    <div class="lm-shade-stage-name" id="shadeStageName">시술 전</div>
-                    <div class="lm-shade-stage-desc" id="shadeStageDesc">커피, 와인, 흡연 등으로 인해 치아가 누렇게 변색된 상태입니다.</div>
+                    <div class="lm-shade-stage-name" id="shadeStageName">療程前</div>
+                    <div class="lm-shade-stage-desc" id="shadeStageDesc">因咖啡、紅酒、抽菸等因素，牙齒呈現黃化變色的狀態。</div>
                 </div>
 
                 <div class="lm-shade-slider-wrap lm-fade lm-fade-delay-1">
                     <div class="lm-shade-markers" id="shadeMarkers">
-                        <span class="lm-shade-marker active" data-step="0">시술 전</span>
-                        <span class="lm-shade-marker" data-step="1">1단계</span>
-                        <span class="lm-shade-marker" data-step="2">2단계</span>
-                        <span class="lm-shade-marker" data-step="3">3단계</span>
+                        <span class="lm-shade-marker active" data-step="0">療程前</span>
+                        <span class="lm-shade-marker" data-step="1">第1階段</span>
+                        <span class="lm-shade-marker" data-step="2">第2階段</span>
+                        <span class="lm-shade-marker" data-step="3">第3階段</span>
                     </div>
                     <div class="lm-shade-range-wrap">
                         <div class="lm-shade-range-track"></div>
@@ -1767,7 +1793,7 @@
 
                 <div class="lm-shade-note lm-fade lm-fade-delay-2">
                     <div class="lm-shade-note-icon"><i class="ph ph-info"></i></div>
-                    <p class="lm-shade-note-text">슬라이더를 좌우로 드래그하여 미백 단계별 변화를 확인하세요. 시술 효과는 개인에 따라 차이가 있을 수 있습니다.</p>
+                    <p class="lm-shade-note-text">請左右拖曳滑桿，查看各美白階段的變化。療程效果因個人狀況而有所差異。</p>
                 </div>
             </div>
         </section>
@@ -1776,18 +1802,18 @@
         <section class="lm-wh-process">
             <div class="lm-inner">
                 <div class="lm-wh-process-header lm-fade">
-                    <h2 class="lm-wh-process-title">전문가 <span>미백</span> 시술과정</h2>
+                    <h2 class="lm-wh-process-title">診間<span>美白</span>療程步驟</h2>
                 </div>
                 <div class="lm-wh-timeline">
                     <div class="lm-wh-tl-step lm-fade lm-stagger-1">
                         <span class="lm-wh-tl-big">01</span>
                         <div class="lm-wh-tl-num">1</div>
                         <div class="lm-wh-tl-card">
-                            <div class="lm-wh-tl-card-img"><img src="images/whitening/step_01.jpg" alt="STEP 01"></div>
+                            <div class="lm-wh-tl-card-img"><img src="/images/whitening/step_01.jpg" alt="STEP 01"></div>
                             <div class="lm-wh-tl-card-body">
                                 <span class="lm-wh-tl-step-label">STEP 01.</span>
-                                <h3>시술 전 치아 색상 확인</h3>
-                                <p class="lm-wh-tl-card-desc">시술 전 치아의 현재 색상을 VITA 쉐이드 가이드로 정밀하게 측정하고 디지털 사진으로 기록합니다. 환자와 함께 목표 색상을 설정하여 시술 후 얼마나 밝아졌는지 객관적으로 비교할 수 있도록 준비하며, 치아 상태에 따라 최적의 미백 농도와 횟수를 결정합니다.</p>
+                                <h3>療程前確認牙齒色階</h3>
+                                <p class="lm-wh-tl-card-desc">療程前使用VITA色階比對板精密測量牙齒現有色階，並以數位照片記錄留存。與患者共同設定目標色階，以便療程後客觀比對改善幅度，並依牙齒狀況決定最適合的美白濃度與次數。</p>
                             </div>
                         </div>
                     </div>
@@ -1795,11 +1821,11 @@
                         <span class="lm-wh-tl-big">02</span>
                         <div class="lm-wh-tl-num">2</div>
                         <div class="lm-wh-tl-card">
-                            <div class="lm-wh-tl-card-img"><img src="images/whitening/step_02.jpg" alt="STEP 02"></div>
+                            <div class="lm-wh-tl-card-img"><img src="/images/whitening/step_02.jpg" alt="STEP 02"></div>
                             <div class="lm-wh-tl-card-body">
                                 <span class="lm-wh-tl-step-label">STEP 02.</span>
-                                <h3>치면 세척</h3>
-                                <p class="lm-wh-tl-card-desc">스케일링과 폴리싱을 통해 치아 표면의 치석, 플라크, 외인성 착색을 꼼꼼히 제거합니다. 이 과정은 미백 약제의 흡수율을 최대 40% 이상 향상시키는 핵심 단계로, 치아 표면을 균일하게 만들어 미백제가 고르게 침투할 수 있는 최적의 조건을 만듭니다.</p>
+                                <h3>牙面清潔</h3>
+                                <p class="lm-wh-tl-card-desc">透過洗牙與拋光仔細去除牙齒表面的牙結石、牙菌斑及外源性色素沉澱。此步驟是提升美白藥劑吸收率最高達40%以上的關鍵環節，使牙齒表面均勻平整，為美白劑均勻滲透創造最佳條件。</p>
                             </div>
                         </div>
                     </div>
@@ -1807,11 +1833,11 @@
                         <span class="lm-wh-tl-big">03</span>
                         <div class="lm-wh-tl-num">3</div>
                         <div class="lm-wh-tl-card">
-                            <div class="lm-wh-tl-card-img"><img src="images/whitening/step_03.jpg" alt="STEP 03"></div>
+                            <div class="lm-wh-tl-card-img"><img src="/images/whitening/step_03.jpg" alt="STEP 03"></div>
                             <div class="lm-wh-tl-card-body">
                                 <span class="lm-wh-tl-step-label">STEP 03.</span>
-                                <h3>잇몸 보호제 도포</h3>
-                                <p class="lm-wh-tl-card-desc">고농도 미백제로부터 잇몸과 구강 연조직을 보호하기 위해 광경화형 잇몸 보호제(레진 댐)를 치경부에 정밀하게 도포한 후 광중합기로 경화시킵니다. 보호제가 완전히 경화되면 잇몸 경계를 꼼꼼히 확인하여 미백제가 잇몸에 접촉하는 것을 원천 차단하며, 환자는 시술 중 잇몸 자극 없이 편안하게 시술을 받을 수 있습니다.</p>
+                                <h3>塗抹牙齦保護劑</h3>
+                                <p class="lm-wh-tl-card-desc">為保護牙齦及口腔軟組織免受高濃度美白劑侵害，於牙頸部精密塗抹光固化型牙齦保護劑（樹脂壩），再以光聚合機固化。保護劑完全固化後，仔細確認牙齦邊界，從根本阻絕美白劑與牙齦接觸，讓患者在療程中無牙齦刺激感，舒適完成整個過程。</p>
                             </div>
                         </div>
                     </div>
@@ -1819,11 +1845,11 @@
                         <span class="lm-wh-tl-big">04</span>
                         <div class="lm-wh-tl-num">4</div>
                         <div class="lm-wh-tl-card">
-                            <div class="lm-wh-tl-card-img"><img src="images/whitening/step_04.jpg" alt="STEP 04"></div>
+                            <div class="lm-wh-tl-card-img"><img src="/images/whitening/step_04.jpg" alt="STEP 04"></div>
                             <div class="lm-wh-tl-card-body">
                                 <span class="lm-wh-tl-step-label">STEP 04.</span>
-                                <h3>치아 미백 약제 도포</h3>
-                                <p class="lm-wh-tl-card-desc">과산화수소 35% 농도의 전문가용 미백 약제를 치아 표면에 1~2mm 두께로 균일하게 도포합니다. 숙련된 전문의가 각 치아마다 약제 두께를 일정하게 유지하여 고른 미백 효과를 보장하며, 치아 사이사이와 표면 요철 부위까지 빈틈없이 도포하여 얼룩 없는 깨끗한 결과를 만듭니다.</p>
+                                <h3>塗抹牙齒美白藥劑</h3>
+                                <p class="lm-wh-tl-card-desc">將濃度35%過氧化氫的專業美白藥劑均勻塗抹於牙齒表面，厚度約1~2mm。熟練的專科醫師為每顆牙齒維持一致的藥劑厚度，確保均勻美白效果，並細心填補牙縫及表面凹凸處，打造無色差的潔白成果。</p>
                             </div>
                         </div>
                     </div>
@@ -1831,17 +1857,17 @@
                         <span class="lm-wh-tl-big">05</span>
                         <div class="lm-wh-tl-num">5</div>
                         <div class="lm-wh-tl-card">
-                            <div class="lm-wh-tl-card-img"><img src="images/whitening/step_05.jpg" alt="STEP 05"></div>
+                            <div class="lm-wh-tl-card-img"><img src="/images/whitening/step_05.jpg" alt="STEP 05"></div>
                             <div class="lm-wh-tl-card-body">
                                 <span class="lm-wh-tl-step-label">STEP 05.</span>
-                                <h3>미백 광선 조사</h3>
-                                <p class="lm-wh-tl-card-desc">LED 또는 할로겐 특수 광원을 15분간 조사하여 과산화수소의 분해를 촉진하고 활성 산소가 치아 법랑질과 상아질의 색소 분자를 효과적으로 분해합니다. 이 과정을 3회 반복(총 45분)하여 단계적으로 치아를 밝게 만들며, 매 회차마다 미백 정도를 확인하여 목표 색상에 도달할 때까지 세심하게 관리합니다.</p>
+                                <h3>美白光源照射</h3>
+                                <p class="lm-wh-tl-card-desc">以LED或鹵素特殊光源照射15分鐘，促進過氧化氫分解，使活性氧有效分解牙釉質及牙本質中的色素分子。此過程重複3次（共45分鐘），逐步使牙齒變亮，並在每次療程後確認美白程度，細心管控直至達到目標色階。</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="lm-wh-step-repeat lm-fade">
-                    STEP 04 ↔ 05 과정을 <strong>15분씩 3회 반복</strong>합니다.
+                    STEP 04 ↔ 05 的步驟每次<strong>15分鐘，共重複3回</strong>。
                 </div>
             </div>
         </section>
@@ -1851,50 +1877,50 @@
             <div class="lm-inner">
                 <div class="lm-rec-header lm-fade">
                     <span class="lm-rec-label">RECOMMEND</span>
-                    <h2 class="lm-rec-title">이런 분들에게<br>치아미백을 추천드립니다</h2>
+                    <h2 class="lm-rec-title">以下情況推薦進行牙齒美白</h2>
                 </div>
                 <div class="lm-rec-cards">
                     <div class="lm-rec-card lm-fade lm-stagger-1">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">01</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-tooth"></i></div>
-                        <h3>치아 변색이 고민이신 분</h3>
-                        <p>선천적 또는 후천적으로 치아가 누렇게 변색되어 밝고 깨끗한 치아를 원하시는 분에게 적합합니다.</p>
+                        <h3>為牙齒變色感到困擾者</h3>
+                        <p>適合先天或後天牙齒泛黃變色，希望擁有明亮潔白牙齒的朋友。</p>
                     </div>
                     <div class="lm-rec-card lm-fade lm-stagger-2">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">02</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-calendar-check"></i></div>
-                        <h3>중요한 일정을 준비하시는 분</h3>
-                        <p>결혼식, 면접, 졸업식 등 특별한 날을 앞두고 단기간에 환한 미소를 완성하고 싶으신 분에게 추천합니다.</p>
+                        <h3>有重要行程在即者</h3>
+                        <p>推薦給婚禮、面試、畢業典禮等重要場合前，希望在短時間內擁有燦爛笑容的朋友。</p>
                     </div>
                     <div class="lm-rec-card lm-fade lm-stagger-3">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">03</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-coffee"></i></div>
-                        <h3>오래된 착색을 제거하고 싶으신 분</h3>
-                        <p>커피, 와인, 흡연 등 생활습관으로 인해 누적된 치아 착색을 깨끗하게 개선하고 싶으신 분입니다.</p>
+                        <h3>希望去除長期色素沉澱者</h3>
+                        <p>希望徹底改善因咖啡、紅酒、抽菸等日常習慣長期累積的牙齒色素沉澱者。</p>
                     </div>
                     <div class="lm-rec-card lm-fade lm-stagger-1">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">04</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-smiley"></i></div>
-                        <h3>전체적인 미소 개선을 원하시는 분</h3>
-                        <p>라미네이트나 보철 치료 전 자연 치아의 색상을 먼저 밝게 개선하여 조화로운 미소를 만들고자 하시는 분입니다.</p>
+                        <h3>希望全面改善笑容者</h3>
+                        <p>希望在陶瓷貼片或假牙修復治療前，先將自然牙色改善得更明亮，打造協調美觀笑容的朋友。</p>
                     </div>
                     <div class="lm-rec-card lm-fade lm-stagger-2">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">05</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-star"></i></div>
-                        <h3>자신감을 향상시키고 싶으신 분</h3>
-                        <p>밝은 미소가 주는 긍정적 인상으로 대인관계와 사회생활에서 더 큰 자신감을 갖고 싶으신 분입니다.</p>
+                        <h3>希望提升自信心者</h3>
+                        <p>希望藉由燦爛笑容帶來正面印象，在人際關係與社交生活中更有自信的朋友。</p>
                     </div>
                     <div class="lm-rec-card lm-fade lm-stagger-3">
                         <span class="lm-rec-card-check"><i class="ph-bold ph-check"></i></span>
                         <span class="lm-rec-card-num">06</span>
                         <div class="lm-rec-card-icon"><i class="ph ph-lightning"></i></div>
-                        <h3>빠른 효과를 원하시는 분</h3>
-                        <p>전문가 미백은 1회 시술로 즉각적인 변화를 확인할 수 있어 빠른 결과를 원하시는 분에게 최적입니다.</p>
+                        <h3>希望快速看到效果者</h3>
+                        <p>診間美白只需一次療程即可看到立即明顯的變化，最適合希望快速獲得成效的朋友。</p>
                     </div>
                 </div>
             </div>
@@ -1907,33 +1933,33 @@
                 <h2 class="lm-spec-title lm-fade">Speciality</h2>
                 <div class="lm-spec-subtitle lm-fade">
                     <p class="lm-spec-text">
-                        스마일뷰 <span class="lm-gold">치아미백</span>으로 밝고 환한 미소를 만들어 보세요.
+                        透過SMILEVIEW<span class="lm-gold">牙齒美白</span>，打造明亮燦爛的笑容吧。
                     </p>
                 </div>
                 <div class="lm-spec-cards">
                     <div class="lm-spec-card lm-fade lm-stagger-1">
                         <div class="lm-spec-card-icon"><i class="ph ph-shield-check"></i></div>
                         <div class="lm-spec-badge">effect01</div>
-                        <h3>안전한 시술</h3>
-                        <p>FDA 승인 미백제와 검증된 장비를 사용하여 치아와 잇몸에 무리 없이 안전하게 시술합니다. 전문의의 정밀 진단 후 개인 맞춤 농도로 진행됩니다.</p>
+                        <h3>安全療程</h3>
+                        <p>使用FDA核准的美白劑與經驗證設備，在不傷害牙齒與牙齦的情況下安全進行療程。由專科醫師精密診斷後，以個人客製化濃度進行治療。</p>
                     </div>
                     <div class="lm-spec-card lm-fade lm-stagger-2">
                         <div class="lm-spec-card-icon"><i class="ph ph-lightning"></i></div>
                         <div class="lm-spec-badge">effect02</div>
-                        <h3>빠른 효과</h3>
-                        <p>전문가 미백의 경우 1회 시술만으로도 눈에 띄는 변화를 확인할 수 있으며, 시술 직후 바로 일상생활이 가능해 바쁜 현대인에게 적합합니다.</p>
+                        <h3>快速見效</h3>
+                        <p>診間美白僅需一次療程即可看到顯著變化，療程結束後立即可恢復日常生活，非常適合繁忙的現代人。</p>
                     </div>
                     <div class="lm-spec-card lm-fade lm-stagger-3">
                         <div class="lm-spec-card-icon"><i class="ph ph-sun"></i></div>
                         <div class="lm-spec-badge">effect03</div>
-                        <h3>자연스러운 밝기</h3>
-                        <p>인위적인 하얀색이 아닌 자연스럽고 건강한 밝기를 구현합니다. 개인의 피부톤과 치아 상태를 고려한 맞춤 미백으로 조화로운 미소를 완성합니다.</p>
+                        <h3>自然明亮度</h3>
+                        <p>呈現的不是人工感的純白，而是自然健康的明亮色調。依個人膚色與牙齒狀況量身打造的美白方案，成就協調美觀的笑容。</p>
                     </div>
                     <div class="lm-spec-card lm-fade lm-stagger-4">
                         <div class="lm-spec-card-icon"><i class="ph ph-heart"></i></div>
                         <div class="lm-spec-badge">effect04</div>
-                        <h3>통증 최소화</h3>
-                        <p>최신 미백 기술과 잇몸 보호 처리를 통해 시술 중 불편함과 시림 증상을 최소화합니다. 민감한 치아도 편안하게 시술받으실 수 있습니다.</p>
+                        <h3>將疼痛降至最低</h3>
+                        <p>透過最新美白技術與牙齦保護處理，將療程中的不適感及敏感酸痛降至最低。即使是敏感性牙齒也能舒適接受療程。</p>
                     </div>
                 </div>
             </div>
@@ -1944,20 +1970,20 @@
             <div class="lm-inner">
                 <div class="lm-ba-header lm-fade">
                     <span class="lm-ba-label">BEFORE &amp; AFTER</span>
-                    <h2 class="lm-ba-title">치아미백 시술 전후 비교</h2>
+                    <h2 class="lm-ba-title">牙齒美白療程前後對比</h2>
                 </div>
                 <div class="lm-ba-carousel lm-fade lm-fade-delay-1" id="baCarousel">
                     <div class="lm-ba-track">
                         <div class="lm-ba-slides" id="baSlides">
-                            <div class="lm-ba-slide"><img src="images/whitening/1.png" alt="치아미백 시술 전후 1"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/2.png" alt="치아미백 시술 전후 2"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/3.png" alt="치아미백 시술 전후 3"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/4.png" alt="치아미백 시술 전후 4"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/5.png" alt="치아미백 시술 전후 5"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/6.png" alt="치아미백 시술 전후 6"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/7.png" alt="치아미백 시술 전후 7"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/8.png" alt="치아미백 시술 전후 8"></div>
-                            <div class="lm-ba-slide"><img src="images/whitening/9.png" alt="치아미백 시술 전후 9"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/1.png" alt="牙齒美白療程前後 1"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/2.png" alt="牙齒美白療程前後 2"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/3.png" alt="牙齒美白療程前後 3"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/4.png" alt="牙齒美白療程前後 4"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/5.png" alt="牙齒美白療程前後 5"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/6.png" alt="牙齒美白療程前後 6"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/7.png" alt="牙齒美白療程前後 7"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/8.png" alt="牙齒美白療程前後 8"></div>
+                            <div class="lm-ba-slide"><img src="/images/whitening/9.png" alt="牙齒美白療程前後 9"></div>
                         </div>
                     </div>
                     <div class="lm-ba-nav">
@@ -1975,47 +2001,47 @@
                 <div class="lm-faq-layout">
                     <div class="lm-faq-left lm-fade">
                         <div class="lm-faq-deco">FAQ</div>
-                        <p class="lm-faq-left-text">치아미백 치료에 대해<br>자주 묻는 질문들을<br>확인해 보세요.</p>
+                        <p class="lm-faq-left-text">請查看牙齒美白治療的常見問題。</p>
                     </div>
                     <div class="lm-faq-list">
                         <div class="lm-faq-item lm-fade">
                             <button class="lm-faq-q" onclick="toggleFaq(this)">
                                 <span class="lm-faq-prefix">Q.</span>
-                                <span style="flex:1;">치아미백 시술 후 통증이 있나요?</span>
+                                <span style="flex:1;">牙齒美白療程後會疼痛嗎？</span>
                                 <i class="ph ph-caret-down"></i>
                             </button>
                             <div class="lm-faq-a">
-                                <span class="lm-faq-a-prefix">A.</span>시술 직후 일시적으로 치아가 시릴 수 있으나, 대부분 1~2일 내에 자연스럽게 사라집니다. 시림 증상이 심한 경우 전문의와 상담하여 적절한 조치를 받으실 수 있습니다.
+                                <span class="lm-faq-a-prefix">A.</span>療程結束後牙齒可能暫時出現敏感酸痛感，但大多數情況下會在1~2天內自然消退。若敏感症狀較為嚴重，可諮詢專科醫師，採取適當的處置措施。
                             </div>
                         </div>
                         <div class="lm-faq-item lm-fade lm-fade-delay-1">
                             <button class="lm-faq-q" onclick="toggleFaq(this)">
                                 <span class="lm-faq-prefix">Q.</span>
-                                <span style="flex:1;">미백 효과는 얼마나 지속되나요?</span>
+                                <span style="flex:1;">美白效果可以維持多久？</span>
                                 <i class="ph ph-caret-down"></i>
                             </button>
                             <div class="lm-faq-a">
-                                <span class="lm-faq-a-prefix">A.</span>개인의 식습관과 관리에 따라 다르지만, 일반적으로 1~3년 동안 미백 효과가 지속됩니다. 커피, 와인, 흡연 등 착색이 쉬운 음식을 자주 섭취하면 지속 기간이 짧아질 수 있으며, 6개월 간격으로 치과 방문을 권장합니다.
+                                <span class="lm-faq-a-prefix">A.</span>依個人飲食習慣與保養方式而異，一般來說美白效果可維持1~3年。若經常攝取咖啡、紅酒、抽菸等容易造成色素沉澱的食物，維持時間可能縮短，建議每6個月回診一次。
                             </div>
                         </div>
                         <div class="lm-faq-item lm-fade lm-fade-delay-2">
                             <button class="lm-faq-q" onclick="toggleFaq(this)">
                                 <span class="lm-faq-prefix">Q.</span>
-                                <span style="flex:1;">자가 미백과 전문가 미백의 차이는 무엇인가요?</span>
+                                <span style="flex:1;">居家美白與診間美白有什麼差別？</span>
                                 <i class="ph ph-caret-down"></i>
                             </button>
                             <div class="lm-faq-a">
-                                <span class="lm-faq-a-prefix">A.</span>자가 미백은 치과에서 제작한 맞춤 장치를 이용해 집에서 2~3주간 진행하는 방법이며, 전문가 미백은 치과에서 고농도 미백제와 특수 광선을 이용해 20~30분 내에 빠른 결과를 얻는 방법입니다. 두 방법을 병행하면 더욱 효과적입니다.
+                                <span class="lm-faq-a-prefix">A.</span>居家美白是使用牙醫診所客製化製作的牙托，在家中持續2~3週進行的方法；診間美白則是在診所利用高濃度美白劑搭配特殊光源，在20~30分鐘內快速獲得明顯效果的方法。兩種方法併用效果更佳。
                             </div>
                         </div>
                         <div class="lm-faq-item lm-fade lm-fade-delay-3">
                             <button class="lm-faq-q" onclick="toggleFaq(this)">
                                 <span class="lm-faq-prefix">Q.</span>
-                                <span style="flex:1;">미백 시술 후 주의사항이 있나요?</span>
+                                <span style="flex:1;">美白療程後有什麼注意事項嗎？</span>
                                 <i class="ph ph-caret-down"></i>
                             </button>
                             <div class="lm-faq-a">
-                                <span class="lm-faq-a-prefix">A.</span>시술 후 24~48시간 동안은 착색이 쉬운 음식(커피, 카레, 와인 등)과 흡연을 피하는 것이 좋습니다. 또한 정기적인 구강 관리와 치과 검진을 통해 미백 효과를 오래 유지하는 것을 권장합니다.
+                                <span class="lm-faq-a-prefix">A.</span>療程後24~48小時內應避免攝取容易造成色素沉澱的食物（咖啡、咖哩、紅酒等）及抽菸。此外，建議透過定期口腔保健與牙科檢查，長期維持美白效果。
                             </div>
                         </div>
                     </div>
@@ -2032,13 +2058,13 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h2>SMILEVIEW<span>.</span></h2>
-                    <p>투명하고 편리한 교정부터 심미 치료까지,<br>스마일뷰치과가 당신의 아름다운 미소를 만들어 드립니다.</p>
+                    <p>從透明便利的矯正療程到美容牙科治療，<br>SMILEVIEW牙醫診所為您打造完美迷人的笑容。</p>
                 </div>
                 <div class="footer-col">
                     <h3>Location</h3>
                     <ul>
-                        <li>서울특별시 강남구 봉은사로 107, 15층</li>
-                        <li style="font-size:12px;color:rgba(255,255,255,0.25);">(논현동 201 16번지 15층)</li>
+                        <li>首爾特別市 江南區 奉恩寺路 107, 15樓</li>
+                        <li style="font-size:12px;color:rgba(255,255,255,0.25);">（論峴洞 201 16番地 15樓）</li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -2046,19 +2072,19 @@
                     <ul>
                         <li><a href="tel:02-552-7528">TEL. 02-552-7528</a></li>
                         <li>FAX. 02-552-7527</li>
-                        <li><span class="footer-label">대표자</span>김한결</li>
-                        <li><span class="footer-label">사업자번호</span>699-29-00572</li>
+                        <li><span class="footer-label">代表人</span>金韓結</li>
+                        <li><span class="footer-label">營業登記號</span>699-29-00572</li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Hours</h3>
                     <ul class="footer-hours">
-                        <li><span class="day">평일</span><span>AM 10:00 - PM 06:30</span></li>
-                        <li class="note">점심시간 PM 01:00 - PM 02:00</li>
-                        <li><span class="day">토요일</span><span>AM 10:00 - PM 03:00</span></li>
-                        <li class="note">점심시간 없이 진료</li>
-                        <li><span class="day">일요일</span><span>AM 10:00 - PM 04:00</span></li>
-                        <li class="closed"><span class="day">휴진</span><span>공휴일</span></li>
+                        <li><span class="day">平日</span><span>AM 10:00 - PM 06:30</span></li>
+                        <li class="note">午休時間 PM 01:00 - PM 02:00</li>
+                        <li><span class="day">週六</span><span>AM 10:00 - PM 03:00</span></li>
+                        <li class="note">無午休持續看診</li>
+                        <li><span class="day">週日</span><span>AM 10:00 - PM 04:00</span></li>
+                        <li class="closed"><span class="day">休診</span><span>國定假日</span></li>
                     </ul>
                 </div>
             </div>
@@ -2247,17 +2273,17 @@
 
         // Filter values per stage: brightness, saturate, sepia, hue-rotate(deg)
         const stageFilters = [
-            { bright: 0.72, sat: 1.5, sepia: 0.55, hue: -5, glowOp: 0.2 },   // 시술 전 - 확실히 누런색
-            { bright: 0.88, sat: 1.2, sepia: 0.28, hue: -2, glowOp: 0.45 },  // 1단계 - 누런기 절반 제거
-            { bright: 1.05, sat: 0.95, sepia: 0.06, hue: 0, glowOp: 0.7 },   // 2단계 - 거의 하얀색
-            { bright: 1.22, sat: 0.8, sepia: 0, hue: 2, glowOp: 1.0 }        // 3단계 - 밝고 하얀 치아 + 광택
+            { bright: 0.72, sat: 1.5, sepia: 0.55, hue: -5, glowOp: 0.2 },   // 療程前 - 확실히 누런색
+            { bright: 0.88, sat: 1.2, sepia: 0.28, hue: -2, glowOp: 0.45 },  // 第1階段 - 누런기 절반 제거
+            { bright: 1.05, sat: 0.95, sepia: 0.06, hue: 0, glowOp: 0.7 },   // 第2階段 - 거의 하얀색
+            { bright: 1.22, sat: 0.8, sepia: 0, hue: 2, glowOp: 1.0 }        // 第3階段 - 밝고 하얀 치아 + 광택
         ];
 
         const stages = [
-            { name: '시술 전', desc: '커피, 와인, 흡연 등으로 인해 치아가 누렇게 변색된 상태입니다.' },
-            { name: '1단계 미백', desc: '표면 착색이 제거되고 치아 본연의 색상이 드러나기 시작합니다.' },
-            { name: '2단계 미백', desc: '치아 내부 색소까지 분해되어 눈에 띄게 밝아진 상태입니다.' },
-            { name: '3단계 미백', desc: '전문가 미백의 최종 단계로, 밝고 자연스러운 화이트 톤을 달성합니다.' }
+            { name: '療程前', desc: '因咖啡、紅酒、抽菸等因素，牙齒呈現黃化變色的狀態。' },
+            { name: '第1階段美白', desc: '表面色素沉澱被去除，牙齒本身的自然色開始顯現。' },
+            { name: '第2階段美白', desc: '連牙齒內部色素也被分解，呈現明顯變亮的狀態。' },
+            { name: '第3階段美白', desc: '診間美白的最終階段，達成明亮自然的白色色調。' }
         ];
 
         const snapPoints = [0, 33, 67, 100];
@@ -2408,10 +2434,10 @@
     <!-- Floating SNS -->
     <div class="sv-float-sns" id="floatSns">
         <div class="sv-float-sns-list">
-            <a href="https://www.instagram.com/smileview_dental/" class="sv-float-btn sv-float-btn--instagram" title="Instagram" target="_blank">
+            <a href="https://www.instagram.com/smileview_tw/" class="sv-float-btn sv-float-btn--instagram" title="Instagram" target="_blank">
                 <i class="ph-fill ph-instagram-logo"></i>
             </a>
-            <a href="#" class="sv-float-btn sv-float-btn--line" title="LINE" target="_blank">
+            <a href="https://lin.ee/lHEp9er" class="sv-float-btn sv-float-btn--line" title="LINE" target="_blank">
                 <i class="ph-fill ph-chat-circle-dots"></i>
             </a>
         </div>
@@ -2426,6 +2452,6 @@
         if (ls && !ls.contains(e.target)) ls.classList.remove('open');
     });
     </script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

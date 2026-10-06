@@ -157,34 +157,34 @@ document.addEventListener('DOMContentLoaded', () => {
     // B&A Image data per category (actual project images)
     const bnaImageData = {
         whitening: [
-            { src: 'images/main/unnamed (1).png' },
-            { src: 'images/main/unnamed (2).png' },
-            { src: 'images/main/unnamed (3).png' },
-            { src: 'images/main/unnamed (4).png' },
-            { src: 'images/main/unnamed (5).png' },
-            { src: 'images/main/unnamed (6).png' },
-            { src: 'images/main/unnamed (7).png' }
+            { src: '/images/main/unnamed (1).png' },
+            { src: '/images/main/unnamed (2).png' },
+            { src: '/images/main/unnamed (3).png' },
+            { src: '/images/main/unnamed (4).png' },
+            { src: '/images/main/unnamed (5).png' },
+            { src: '/images/main/unnamed (6).png' },
+            { src: '/images/main/unnamed (7).png' }
         ],
         laminate: [
-            { src: 'images/main/unnamed (8).png' },
-            { src: 'images/main/unnamed (9).png' },
-            { src: 'images/main/unnamed (10).png' },
-            { src: 'images/main/unnamed (11).png' },
-            { src: 'images/main/unnamed (12).png' }
+            { src: '/images/main/unnamed (8).png' },
+            { src: '/images/main/unnamed (9).png' },
+            { src: '/images/main/unnamed (10).png' },
+            { src: '/images/main/unnamed (11).png' },
+            { src: '/images/main/unnamed (12).png' }
         ],
         orthodontics: [
-            { src: 'images/main/unnamed (13).png' },
-            { src: 'images/main/unnamed (14).png' },
-            { src: 'images/main/unnamed (15).png' },
-            { src: 'images/main/unnamed (16).png' },
-            { src: 'images/main/unnamed (17).png' },
-            { src: 'images/main/unnamed (18).png' }
+            { src: '/images/main/unnamed (13).png' },
+            { src: '/images/main/unnamed (14).png' },
+            { src: '/images/main/unnamed (15).png' },
+            { src: '/images/main/unnamed (16).png' },
+            { src: '/images/main/unnamed (17).png' },
+            { src: '/images/main/unnamed (18).png' }
         ],
         implant: [
-            { src: 'images/main/unnamed (19).png' },
-            { src: 'images/main/unnamed (20).png' },
-            { src: 'images/main/unnamed (21).png' },
-            { src: 'images/main/unnamed (22).png' }
+            { src: '/images/main/unnamed (19).png' },
+            { src: '/images/main/unnamed (20).png' },
+            { src: '/images/main/unnamed (21).png' },
+            { src: '/images/main/unnamed (22).png' }
         ]
     };
 
@@ -455,13 +455,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // All indoor images flattened into a single array
     const indoorAllImages = [
-        'images/main/다운로드.jpg',
-        'images/main/다운로드.png',
-        'images/main/다운로드 (1).jpg',
-        'images/main/다운로드 (1).jpg',
-        'images/main/다운로드 (2).jpg',
-        'images/main/다운로드 (2).png',
-        'images/main/다운로드 (3).png'
+        '/images/main/다운로드.jpg',
+        '/images/main/다운로드.png',
+        '/images/main/다운로드 (1).jpg',
+        '/images/main/다운로드 (1).jpg',
+        '/images/main/다운로드 (2).jpg',
+        '/images/main/다운로드 (2).png',
+        '/images/main/다운로드 (3).png'
     ];
 
     let isIndDragging = false;

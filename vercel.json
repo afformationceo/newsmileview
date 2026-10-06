@@ -1,0 +1,226 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index_jp",
+      "destination": "/ja",
+      "permanent": true
+    },
+    {
+      "source": "/index_jp.html",
+      "destination": "/ja",
+      "permanent": true
+    },
+    {
+      "source": "/index_tw",
+      "destination": "/zh-tw",
+      "permanent": true
+    },
+    {
+      "source": "/index_tw.html",
+      "destination": "/zh-tw",
+      "permanent": true
+    },
+    {
+      "source": "/introduction",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/introduction.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/introduction_jp",
+      "destination": "/ja/about",
+      "permanent": true
+    },
+    {
+      "source": "/introduction_jp.html",
+      "destination": "/ja/about",
+      "permanent": true
+    },
+    {
+      "source": "/introduction_tw",
+      "destination": "/zh-tw/about",
+      "permanent": true
+    },
+    {
+      "source": "/introduction_tw.html",
+      "destination": "/zh-tw/about",
+      "permanent": true
+    },
+    {
+      "source": "/implant",
+      "destination": "/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/implant.html",
+      "destination": "/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/implant_jp",
+      "destination": "/ja/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/implant_jp.html",
+      "destination": "/ja/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/implant_tw",
+      "destination": "/zh-tw/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/implant_tw.html",
+      "destination": "/zh-tw/sleep-implant",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign.html",
+      "destination": "/invisalign",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign_jp",
+      "destination": "/ja/invisalign",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign_jp.html",
+      "destination": "/ja/invisalign",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign_tw",
+      "destination": "/zh-tw/invisalign",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign_tw.html",
+      "destination": "/zh-tw/invisalign",
+      "permanent": true
+    },
+    {
+      "source": "/laminate",
+      "destination": "/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/laminate.html",
+      "destination": "/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/laminate_jp",
+      "destination": "/ja/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/laminate_jp.html",
+      "destination": "/ja/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/laminate_tw",
+      "destination": "/zh-tw/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/laminate_tw.html",
+      "destination": "/zh-tw/laminate-veneers",
+      "permanent": true
+    },
+    {
+      "source": "/ortho",
+      "destination": "/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/ortho.html",
+      "destination": "/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/ortho_jp",
+      "destination": "/ja/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/ortho_jp.html",
+      "destination": "/ja/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/ortho_tw",
+      "destination": "/zh-tw/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/ortho_tw.html",
+      "destination": "/zh-tw/orthodontics",
+      "permanent": true
+    },
+    {
+      "source": "/prosthetics.html",
+      "destination": "/prosthetics",
+      "permanent": true
+    },
+    {
+      "source": "/prosthetics_jp",
+      "destination": "/ja/prosthetics",
+      "permanent": true
+    },
+    {
+      "source": "/prosthetics_jp.html",
+      "destination": "/ja/prosthetics",
+      "permanent": true
+    },
+    {
+      "source": "/prosthetics_tw",
+      "destination": "/zh-tw/prosthetics",
+      "permanent": true
+    },
+    {
+      "source": "/prosthetics_tw.html",
+      "destination": "/zh-tw/prosthetics",
+      "permanent": true
+    },
+    {
+      "source": "/whitening",
+      "destination": "/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/whitening.html",
+      "destination": "/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/whitening_jp",
+      "destination": "/ja/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/whitening_jp.html",
+      "destination": "/ja/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/whitening_tw",
+      "destination": "/zh-tw/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/whitening_tw.html",
+      "destination": "/zh-tw/teeth-whitening",
+      "permanent": true
+    }
+  ]
+}
