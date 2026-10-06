@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- GA:START -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ5TDWRL0T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FZ5TDWRL0T');
+      // 전환 측정: LINE 예약 / 전화 클릭 (GA4 > 관리 > 주요 이벤트에서 line_click, phone_click 지정)
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a) return;
+        var href = a.getAttribute('href');
+        var name = /^https:\/\/lin\.ee\//.test(href) ? 'line_click' : /^tel:/.test(href) ? 'phone_click' : null;
+        if (!name) return;
+        gtag('event', name, {
+          link_url: href,
+          link_location: a.className || 'link',
+          page_language: document.documentElement.lang
+        });
+      });
+    </script>
+    <!-- GA:END -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>강남 치아미백 | 스마일뷰치과의원</title>
