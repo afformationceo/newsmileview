@@ -221,6 +221,46 @@
       "source": "/whitening_tw.html",
       "destination": "/zh-tw/teeth-whitening",
       "permanent": true
+    },
+    {
+      "source": "/brand",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/brand.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/staff",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/staff.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/location_guide",
+      "destination": "/#location",
+      "permanent": true
+    },
+    {
+      "source": "/location_guide.html",
+      "destination": "/#location",
+      "permanent": true
+    },
+    {
+      "source": "/treatment",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/treatment.html",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

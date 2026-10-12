@@ -78,7 +78,7 @@ META = {
         "ja": ("韓国 セラミック治療・被せ物（補綴治療）｜SMILEVIEW 江南",
              "むし歯・破折・古い被せ物の交換まで。ジルコニア、ゴールド、メタルボンドから最適な素材を選び、歯の機能と見た目を回復するセラミック治療・補綴治療。"),
         "zh-tw": ("韓國全瓷冠・假牙修復｜SMILEVIEW 江南",
-             "蛀牙、牙齒斷裂、舊假牙更換。從氧化鋯、金冠、金屬烤瓷牙中選擇最適合的材料，恢復牙齒功能與美觀的牙冠修復治療。"),
+             "蛀牙、牙齒斷裂、舊假牙更換。從氧化鋯、金冠、金屬燒瓷冠中選擇最適合的材料，恢復牙齒功能與美觀的牙冠修復治療。"),
     },
     "teeth-whitening": {
         "": ("강남 치아미백 | 스마일뷰치과의원",
@@ -90,13 +90,6 @@ META = {
     },
 }
 
-# 메뉴에서 연결되지 않는 예전 템플릿 페이지(플레이스홀더 내용) → 검색 제외
-NOINDEX = {
-    "brand": ("브랜드 스토리 | 스마일뷰치과의원", ""),
-    "staff": ("의료진 소개 | 스마일뷰치과의원", ""),
-    "location_guide": ("오시는 길·진료시간 | 스마일뷰치과의원", ""),
-    "treatment": ("진료안내 | 스마일뷰치과의원", ""),
-}
 
 
 def url(base, lang):
@@ -119,6 +112,9 @@ def block_for(base, sfx, title, desc):
         "<!-- SEO:START -->",
         f'<meta name="description" content="{esc(desc)}">',
         f'<link rel="canonical" href="{url(base, sfx)}">',
+        '<link rel="icon" href="/favicon.ico" sizes="any">',
+        '<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">',
+        '<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">',
     ]
     for s, (h, _) in LANGS.items():
         lines.append(f'<link rel="alternate" hreflang="{h}" href="{url(base, s)}">')
@@ -145,6 +141,22 @@ def block_for(base, sfx, title, desc):
             "image": OG_IMAGE,
             "inLanguage": hl,
             "areaServed": "Seoul",
+            "telephone": "+82-2-552-7528",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "봉은사로 107, 15층",
+                "addressLocality": "강남구",
+                "addressRegion": "서울특별시",
+                "addressCountry": "KR",
+            },
+            # 진료시간 정본: CS 시스템(챗닥) 승인 정보. scripts/fix_hours.py와 함께 맞출 것
+            "openingHoursSpecification": [
+                {"@type": "OpeningHoursSpecification",
+                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Friday"],
+                 "opens": "10:00", "closes": "18:30"},
+                {"@type": "OpeningHoursSpecification",
+                 "dayOfWeek": "Saturday", "opens": "10:00", "closes": "15:00"},
+            ],
         }
         lines.append('<script type="application/ld+json">'
                      + json.dumps(ld, ensure_ascii=False) + "</script>")
@@ -183,11 +195,8 @@ def main():
     for base, per in META.items():
         for sfx, (title, desc) in per.items():
             apply(file_for(base, sfx), title, block_for(base, sfx, title, desc))
-    for base, (title, _) in NOINDEX.items():
-        apply(ROOT / f"{base}.html", title,
-              '<!-- SEO:START -->\n    <meta name="robots" content="noindex, follow">\n    <!-- SEO:END -->')
     sitemap()
-    print(f"ok: {sum(len(v) for v in META.values())} pages + {len(NOINDEX)} noindex")
+    print(f"ok: {sum(len(v) for v in META.values())} pages")
 
 
 if __name__ == "__main__":
